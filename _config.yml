@@ -209,8 +209,9 @@ defaults:
       sitemap: false
 
 # multi language settings
-languages: ["en", "pt-br"]
 default_locale_in_subfolder: false
+exclude_from_localizations: ["js", "css"]
+languages: ["en", "pt-br"]
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
