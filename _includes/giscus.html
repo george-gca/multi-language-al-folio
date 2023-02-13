@@ -13,7 +13,7 @@
         "data-emit-metadata": "{{ site.giscus.emit_metadata }}",
         "data-input-position": "{{ site.giscus.input_position }}",
         "data-theme": giscusTheme,
-        "data-lang": "{{ site.giscus.lang }}",
+        "data-lang": {% if site.lang contains '-' %}"{{ site.lang | split: '-'' | first }}"{% else %}"{{ site.lang }}"{% endif %},
         "crossorigin": "anonymous",
         "async": "",
     };
