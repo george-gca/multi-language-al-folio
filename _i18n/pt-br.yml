@@ -1,3 +1,6 @@
+not_found:
+  message: Você será redirecionado para a página principal em 3 segundos. Se não for redirecionado, clique
+  here: aqui
 main:
   address: >
     <p>555 seu telefone do trabalho</p>

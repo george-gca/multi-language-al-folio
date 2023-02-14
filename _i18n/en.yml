@@ -1,3 +1,6 @@
+not_found:
+  message: You will be redirected to the main page within 3 seconds. If not redirected, please click
+  here: here
 main:
   address: >
     <p>555 your office number</p>
