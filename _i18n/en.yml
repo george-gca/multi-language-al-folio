@@ -2,6 +2,9 @@ not_found:
   message: You will be redirected to the main page within 3 seconds. If not redirected, please go back to the
   main_page: home page
 main:
+  first_name: You
+  middle_name: R.
+  last_name: Name
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
