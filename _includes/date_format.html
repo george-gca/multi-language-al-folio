@@ -12,4 +12,6 @@ Here, add language specific date formats
 {% t month %} {{day}}, {{year}}
 {% elsif site.lang == 'pt-br' %}
 {{day}} de {% t month %}, {{year}}
+{% else %}
+{{day}} {% t month %} {{year}}
 {% endif %}
