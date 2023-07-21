@@ -12,13 +12,9 @@
     -->
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
 {%- endif %}
-{% capture name_components %}
-  {% if site.translations[site.lang].main.first_name %}{{ site.translations[site.lang].main.first_name }}{% endif %}
-  {% if site.translations[site.lang].main.middle_name %}{{ site.translations[site.lang].main.middle_name }}{% endif %}
-  {% if site.translations[site.lang].main.last_name %}{{ site.translations[site.lang].main.last_name }}{% endif %}
-{% endcapture %}
+
 {%- if site.title == "blank" -%}
-    {%- capture title -%}{{ name_components | split:' ' | join:' ' }}{%- endcapture -%}
+    {%- capture title -%}{% if site.translations[site.lang].main.first_name %}{{ site.translations[site.lang].main.first_name }}{% endif %}{% if site.translations[site.lang].main.middle_name %} {{ site.translations[site.lang].main.middle_name }}{% endif %}{% if site.translations[site.lang].main.last_name %} {{ site.translations[site.lang].main.last_name }}{% endif %}{%- endcapture -%}
 {%- else -%}
     {%- capture title -%}{{ site.title }}{%- endcapture -%}
 {%- endif -%}
@@ -71,7 +67,7 @@
         {{ title }}
     {%- endif -%}
     </title>
-    <meta name="author" content="{{ name_components | split:' ' | join:' ' }}" />
+    <meta name="author" content="{% if site.translations[site.lang].main.first_name %}{{ site.translations[site.lang].main.first_name }}{% endif %}{% if site.translations[site.lang].main.middle_name %} {{ site.translations[site.lang].main.middle_name }}{% endif %}{% if site.translations[site.lang].main.last_name %} {{ site.translations[site.lang].main.last_name }}{% endif %}" />
     <meta name="description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
 {%- if page.keywords or site.keywords %}
     <meta name="keywords" content="{%- if page.keywords -%}{{ page.keywords }}{%- else -%}{{ site.keywords }}{%- endif -%}" />
@@ -259,7 +255,7 @@
         "author":
         {
           "@type": "Person",
-          "name": "{{ name_components | split:' ' | join:' ' }}"
+          "name": "{% if site.translations[site.lang].main.first_name %}{{ site.translations[site.lang].main.first_name }}{% endif %}{% if site.translations[site.lang].main.middle_name %} {{ site.translations[site.lang].main.middle_name }}{% endif %}{% if site.translations[site.lang].main.last_name %} {{ site.translations[site.lang].main.last_name }}{% endif %}"
         },
         "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
         "@type": "{%- if is_blog_post -%}BlogPosting{%- else -%}WebSite{%- endif -%}",
@@ -268,7 +264,7 @@
         {% if sameaslinks != blank -%}
         "sameAs": {{ sameaslinks }},
         {%- endif %}
-        "name": "{{ name_components | split:' ' | join:' ' }}",
+        "name": "{% if site.translations[site.lang].main.first_name %}{{ site.translations[site.lang].main.first_name }}{% endif %}{% if site.translations[site.lang].main.middle_name %} {{ site.translations[site.lang].main.middle_name }}{% endif %}{% if site.translations[site.lang].main.last_name %} {{ site.translations[site.lang].main.last_name }}{% endif %}",
         "@context": "https://schema.org"
     }
     </script>

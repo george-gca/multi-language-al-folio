@@ -7,15 +7,7 @@ layout: default
         <header class="post-header">
           <h1 class="post-title">
            {%- if site.title == "blank" -%}
-              {% if site.translations[site.lang].main.first_name %}
-                <span class="font-weight-bold">{{ site.translations[site.lang].main.first_name }}</span>
-              {%- endif -%}
-              {% if site.translations[site.lang].main.middle_name %}
-                {{ site.translations[site.lang].main.middle_name }}
-              {%- endif -%}
-              {% if site.translations[site.lang].main.last_name %}
-                {{ site.translations[site.lang].main.last_name }}
-              {%- endif -%}
+              {% if site.translations[site.lang].main.first_name %}<span class="font-weight-bold">{{ site.translations[site.lang].main.first_name }}</span>{% endif %}{% if site.translations[site.lang].main.middle_name %} {{ site.translations[site.lang].main.middle_name }}{% endif %}{% if site.translations[site.lang].main.last_name %} {{ site.translations[site.lang].main.last_name }}{% endif %}
             {%- else -%}
               {{- site.title -}}
             {%- endif -%}
