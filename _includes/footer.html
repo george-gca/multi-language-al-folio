@@ -6,7 +6,7 @@
     {% if site.footer_fixed %}
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright {{ name_components | split:' ' | join:' ' }}. {% t main.footer_text %}
+        &copy; Copyright {{ site.time | date: '%Y' }} {{ name_components | split:' ' | join:' ' }}. {% t main.footer_text %}
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
         {%- endif -%}
