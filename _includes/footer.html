@@ -1,7 +1,12 @@
+{% capture name_components %}
+  {% if site.translations[site.lang].main.first_name %}{{ site.translations[site.lang].main.first_name }}{% endif %}
+  {% if site.translations[site.lang].main.middle_name %}{{ site.translations[site.lang].main.middle_name }}{% endif %}
+  {% if site.translations[site.lang].main.last_name %}{{ site.translations[site.lang].main.last_name }}{% endif %}
+{% endcapture %}
     {% if site.footer_fixed %}
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright {{ site.time | date: '%Y' }} {% t main.first_name %} {% t main.middle_name %} {% t main.last_name %}. {% t main.footer_text %}
+        &copy; Copyright {{ name_components | split:' ' | join:' ' }}. {% t main.footer_text %}
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
         {%- endif -%}
@@ -13,7 +18,7 @@
     {%- else -%}
     <footer class="sticky-bottom mt-5">
       <div class="container">
-        &copy; Copyright {{ site.time | date: '%Y' }} {% t main.first_name %} {% t main.middle_name %} {% t main.last_name %}. {% t main.footer_text %}
+        &copy; Copyright {{ name_components | split:' ' | join:' ' }}. {% t main.footer_text %}
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
         {%- endif -%}

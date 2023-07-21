@@ -7,14 +7,14 @@
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
             {%- if site.title == "blank" -%}
-              {%- if site.first_name -%}
-                <span class="font-weight-bold">{% t main.first_name %}&nbsp;</span>
+              {% if site.translations[site.lang].main.first_name %}
+                <span class="font-weight-bold">{{ site.translations[site.lang].main.first_name }}</span>
               {%- endif -%}
-              {%- if site.middle_name -%}
-                {% t main.middle_name %}&nbsp;
+              {% if site.translations[site.lang].main.middle_name %}
+                {{ site.translations[site.lang].main.middle_name }}
               {%- endif -%}
-              {%- if site.last_name -%}
-                {% t main.last_name %}
+              {% if site.translations[site.lang].main.last_name %}
+                {{ site.translations[site.lang].main.last_name }}
               {%- endif -%}
             {%- else -%}
               {{- site.title -}}
