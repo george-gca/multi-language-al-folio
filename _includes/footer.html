@@ -1,7 +1,7 @@
     {% if site.footer_fixed %}
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {% t main.footer_text %}
+        &copy; Copyright {{ site.time | date: '%Y' }} {% if site.translations[site.lang].main.first_name %}{{ site.translations[site.lang].main.first_name }}{% endif %}{% if site.translations[site.lang].main.middle_name %} {{ site.translations[site.lang].main.middle_name }}{% endif %}{% if site.translations[site.lang].main.last_name %} {{ site.translations[site.lang].main.last_name }}{% endif %}. {% t main.footer_text %}
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
         {%- endif -%}
@@ -13,7 +13,7 @@
     {%- else -%}
     <footer class="sticky-bottom mt-5">
       <div class="container">
-        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {% t main.footer_text %}
+        &copy; Copyright {{ site.time | date: '%Y' }} {% if site.translations[site.lang].main.first_name %}{{ site.translations[site.lang].main.first_name }}{% endif %}{% if site.translations[site.lang].main.middle_name %} {{ site.translations[site.lang].main.middle_name }}{% endif %}{% if site.translations[site.lang].main.last_name %} {{ site.translations[site.lang].main.last_name }}{% endif %}. {% t main.footer_text %}
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
         {%- endif -%}
