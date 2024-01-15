@@ -102,7 +102,7 @@
                 <li class="nav-item active">
                   {% if site.lang == site.languages.first %}
                     <a class="nav-link" href="{{site.baseurl_root}}/{{site.languages.last}}{{page.url}}">
-                      {% if site.flags: %}
+                      {% if site.country_flag: %}
                         <span class="fi fi-{{site.languages.last}}"></span>
                       {% else %}
                         {{site.languages.last | upcase}}
@@ -110,7 +110,7 @@
                     </a>
                   {% elsif site.lang == site.languages.last %}
                     <a class="nav-link" href="{{site.baseurl_root}}{{ page.url }}">
-                      {% if site.flags: %}
+                      {% if site.country_flag: %}
                         <span class="fi fi-{{site.languages.first}}"></span>
                       {% else %}
                         {{site.languages.last | upcase}}
@@ -121,7 +121,7 @@
                 {%- else -%}
                   <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      {% if site.flags: %}
+                      {% if site.country_flag: %}
                         <span class="fi fi-{{site.lang}}"></span>
                       {% else %}
                         {{ site.lang | upcase }}
@@ -140,7 +140,7 @@
                           {%- endif -%}
                           {% if l == site.languages.first %}
                           <a class="dropdown-item" href="{{site.baseurl_root}}{{page.url}}">
-                            {% if site.flags: %}
+                            {% if site.country_flag: %}
                               <span class="fi fi-{{l}}"></span>
                             {% else %}
                               {{l | upcase}}
@@ -148,7 +148,7 @@
                           </a>
                           {% else %}
                           <a class="dropdown-item" href="{{site.baseurl_root}}/{{l}}{{page.url}}">
-                            {% if site.flags: %}
+                            {% if site.country_flag: %}
                               <span class="fi fi-{{l}}"></span>
                             {% else %}
                               {{l | upcase}}

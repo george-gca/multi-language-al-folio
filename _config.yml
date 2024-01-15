@@ -233,7 +233,7 @@ sass:
 default_locale_in_subfolder: false
 exclude_from_localizations: ["assets"]
 languages: ["en", "pt-br"]
-
+country_flag: false  # set true for allowing flag symbol in language toggle
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
