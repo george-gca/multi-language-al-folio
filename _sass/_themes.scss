@@ -14,7 +14,7 @@
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0,0,0,.1);
+  --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{$white-color};
 
   --global-tip-block: #42b983;
@@ -31,12 +31,12 @@
   --global-danger-block-title: #c00;
 
   .fa-sun {
-    display : none;
+    display: none;
   }
   .fa-moon {
     padding-left: 10px;
     padding-top: 12px;
-    display : block;
+    display: block;
   }
 
   .repo-img-light {
@@ -47,7 +47,7 @@
   }
 }
 
-html[data-theme='dark'] {
+html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
@@ -78,10 +78,10 @@ html[data-theme='dark'] {
   .fa-sun {
     padding-left: 10px;
     padding-top: 12px;
-    display : block;
+    display: block;
   }
   .fa-moon {
-    display : none;
+    display: none;
   }
 
   .repo-img-light {
@@ -91,59 +91,3 @@ html[data-theme='dark'] {
     display: block;
   }
 }
-
-
-.fib, .fi {
-  background-size: contain;
-  background-position: 50%;
-  background-repeat: no-repeat;
-}
-
-.fi {
-  position: relative;
-  display: inline-block;
-  width: 1.333333em;
-  line-height: 1em;
-}
-.fi:before {
-  content: " ";
-}
-.fi.fis {
-  width: 1em;
-}
-
-.fi-xx {
-  background-image: url(../flags/4x3/xx.svg);
-}
-.fi-xx.fis {
-  background-image: url(../flags/1x1/xx.svg);
-}
-
-.fi-en {
-  background-image: url(../flags/4x3/gb.svg);
-}
-.fi-en.fis {
-  background-image: url(../flags/1x1/gb.svg);
-}
-
-.fi-us {
-  background-image: url(../flags/4x3/us.svg);
-}
-.fi-us.fis {
-  background-image: url(../flags/1x1/us.svg);
-}
-
-.fi-pt-br {
-  background-image: url(../flags/4x3/br.svg);
-}
-.fi-pt-br.fis {
-  background-image: url(../flags/1x1/br.svg);
-}
-
-/* add your LAN here
-.fi-us {
-  background-image: url(../flags/4x3/LAN.svg);
-}
-.fi-us.fis {
-  background-image: url(../flags/1x1/LAN.svg);
-} */
