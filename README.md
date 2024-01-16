@@ -247,6 +247,17 @@ When using three or more, it will be created a dropdown menu with all the availa
 
 Note that throughout the [README.md](README.md) and [CUSTOMIZE.md](CUSTOMIZE.md) files, the default language is English (LANG = en). You must have an equivalent file or path for each language you have defined in [\_config.yml](_config.yml). For example, if you have defined `languages: ["en", "pt-br"]`, you must have 2 versions of the file `_data/LANG/cv.yml`: [\_data/en/cv.yml](_data/en/cv.yml) and [\_data/pt-br/cv.yml](_data/pt-br/cv.yml).
 
+#### Country Flags for language toggle
+There is the option to display the corresponding country flag instead. 
+
+![country flag toggle](assets/img/readme_preview/country-flag-language-toggle.png)
+To do so,
+1. set `country_flag` variable to true in the [_config.yml](_config.yml) file
+2. for each language `LAN`, add an `LAN.svg` of the country flag for all your languages into the folders `assets/flags/1x1` and  `assets/flags/4x3` with the corresponding ratios. You can find country flags in .svg format [here](https://github.com/lipis/flag-icons/tree/main/flags).
+3. add each flag for each langauge `LAN` to the `_sass/_themes.scss` file 
+
+As described in the [flag-icon](https://github.com/lipis/flag-icons) repo, you can change the ratio of the displayed country. You will simply need to modify the `_layouts/header.html` accordingly.
+
 ---
 
 ### Light/Dark Mode
