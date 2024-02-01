@@ -1109,3 +1109,38 @@ swiper-container {
     border-bottom: 2px solid var(--global-text-color);
   }
 }
+
+/* Customization for the search bar */
+.search-bar {
+  --search-padding: 1rem;
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  // justify-content: space-between;
+  /* gap: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem; */
+  padding: var(--search-padding);
+  border-radius: 2rem;
+  background: var(--global-bg-color);
+  /* background: #f6f6f6; */
+  // transition: box-shadow 0.3s ease;
+  transition: background var(--global-bg-color);
+
+  .search-input {
+    // font-size: 16px;
+    color: var(--global-text-color);
+    margin-left: var(--search-padding);
+    background: transparent;
+    outline: none;
+    border: none;
+    flex: 1;
+  }
+}
+
+.search-bar:focus-within {
+  // box-shadow: 0 0 1rem var(--global-card-bg-color);
+  background: var(--global-card-bg-color);
+}
+

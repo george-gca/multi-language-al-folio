@@ -107,6 +107,16 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          <li class="nav-item">
+            <div class="search-bar" role="search">
+              <div class="search-input-wrap">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search" aria-label="Search" autocomplete="off" >
+                {% comment %} <label for="search-input" class="search-label"><i class="fa-solid fa-magnifying-glass"></i></label> {% endcomment %}
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          </li>
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
@@ -115,6 +125,7 @@
                 <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
                 <i class="ti ti-sun-filled" id="light-toggle-light"></i>
               </button>
+              <div id="search-results" class="search-results"></div>
             </li>
           {% endif %}
         </ul>
