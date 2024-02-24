@@ -8,7 +8,6 @@ middle_name: R.
 last_name: Name
 email: you@example.com
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-# lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://george-gca.github.io # the base hostname & protocol for your site
@@ -119,7 +118,7 @@ permalink: /blog/:year/:title/
 # Pagination
 pagination:
   enabled: true
-  title: ":title - {{ site.data[site.active_lang].strings.pagination.page }} :num"
+  title: ":title - pagination.page :num"
 
 related_blog_posts:
   enabled: true
