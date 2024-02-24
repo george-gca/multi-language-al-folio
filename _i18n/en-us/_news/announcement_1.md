@@ -1,1 +1,0 @@
-A simple inline announcement.
