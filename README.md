@@ -242,7 +242,9 @@ For customization details please refer to [CUSTOMIZE.md](CUSTOMIZE.md).
 
 ### Multi Language Support
 
-The default language will be the first in the list of languages in the [\_config.yml](_config.yml) file. When using two languages, the theme will show a button in the header that switches to the other language directly.
+In a previous version this was achieved using the [jekyll-multiple-languages-plugin](https://github.com/kurtsson/jekyll-multiple-languages-plugin), but since the plugin repository has been archived it was replaced by the [polyglot](https://github.com/untra/polyglot) plugin. This plugin was created based on the functionalities of the [jekyll-multiple-languages-plugin](https://github.com/kurtsson/jekyll-multiple-languages-plugin) and it is actively maintained. For more information about this change, see [UPGRADING.md](UPGRADING.md).
+
+The default language (and used as a fallback language when a link for a different language is not found) will be the language defined as `default_lang` in the [\_config.yml](_config.yml) file. When using two languages, the theme will show a button in the header that switches to the other language directly.
 
 ![Switch language](assets/img/readme_preview/multi-language-diff-1.png)
 ![Switch back language](assets/img/readme_preview/multi-language-diff-2.png)
@@ -255,7 +257,7 @@ When using three or more, it will be created a dropdown menu with all the availa
 
 ![Switch language between 3 or more](assets/img/readme_preview/multi-language-3-or-more.png)
 
-Note that throughout the [README.md](README.md) and [CUSTOMIZE.md](CUSTOMIZE.md) files, the default language is English (LANG = en). You must have an equivalent file or path for each language you have defined in [\_config.yml](_config.yml). For example, if you have defined `languages: ["en-us", "pt-br"]`, you must have 2 versions of the file `_data/LANG/cv.yml`: [\_data/en-us/cv.yml](_data/en-us/cv.yml) and [\_data/pt-br/cv.yml](_data/pt-br/cv.yml).
+Note that throughout the [README.md](README.md) and [CUSTOMIZE.md](CUSTOMIZE.md) files, the default language is English (LANG = en-us). You must have an equivalent file or path for each language you have defined in [\_config.yml](_config.yml). For example, if you have defined `languages: ["en-us", "pt-br"]`, you must have 2 versions of the file `_data/LANG/cv.yml`: [\_data/en-us/cv.yml](_data/en-us/cv.yml) and [\_data/pt-br/cv.yml](_data/pt-br/cv.yml).
 
 ---
 
