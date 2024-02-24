@@ -8,9 +8,10 @@
       {% continue %}
     {% endif %}
 
+    {% assign cv_key = content[0] %}
     <tr>
       <td class="p-1 pr-2 font-weight-bold">
-        <b>{{ content[0] | capitalize }}</b>
+        <b>{{ site.data[site.active_lang].strings.cv[cv_key] }}</b>
       </td>
       <td class="p-1 pl-2 font-weight-light text">
         {% if content[0] == 'url' %}

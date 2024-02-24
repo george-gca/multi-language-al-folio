@@ -1,0 +1,5 @@
+{% if site.active_lang == 'en-us' %}
+  {{ include.read_time }} min read
+{% elsif site.active_lang == 'pt-br' %}
+  Leitura de {{ include.read_time }} min
+{% endif %}

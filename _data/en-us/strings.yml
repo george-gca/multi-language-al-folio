@@ -1,0 +1,101 @@
+categories:
+  fun: fun
+  work: work
+contact_note: You can even add a little note about which of these is the best way to reach you.
+footer_text: > # the ">" symbol means to ignore newlines until "titles:"
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+latest_posts: latest posts
+news: news
+selected_publications: selected publications
+site_description: A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+archive_category: an archive of posts in this category
+archive_tag: an archive of posts with this tag
+archive_year: an archive of posts from this year
+related_posts:
+  description: "Here are some more articles you might like to read next:"
+  title: Enjoy Reading This Article?
+months:
+  long:
+    january: January
+    february: February
+    march: March
+    april: April
+    may: May
+    june: June
+    july: July
+    august: August
+    september: September
+    october: October
+    november: November
+    december: December
+  short:
+    january: Jan
+    february: Feb
+    march: Mar
+    april: Apr
+    may: May
+    june: Jun
+    july: Jul
+    august: Aug
+    september: Sep
+    october: Oct
+    november: Nov
+    december: Dec
+no_news: No news so far...
+pagination:
+  newer: Newer
+  older: Older
+  page: page
+cv:
+  address: Address
+  area: Area
+  awarder: Awarder
+  awards: Awards
+  basics: General information
+  certificates: Certificates
+  city: City
+  countryCode: Country code
+  courses: Courses
+  date: Date
+  education: Education
+  email: Email
+  endDate: End date
+  fluency: Fluency
+  highlights: Highlights
+  image: Image
+  institution: Institution
+  interests: Interests
+  issuer: Issuer
+  keywords: Keywords
+  label: Label
+  language: Language
+  languages: Languages
+  level: Level
+  location: Location
+  name: Name
+  network: Network
+  organization: Organization
+  phone: Phone
+  position: Position
+  postalCode: Postal Code
+  profiles: Profiles
+  projects: Projects
+  publications: Publications
+  publisher: Publisher
+  reference: Reference
+  references: References
+  region: Region
+  releaseDate: Release date
+  score: Score
+  skills: Skills
+  startDate: Start date
+  studyType: Study type
+  summary: Summary
+  table_of_contents: Table of Contents
+  title: Title
+  url: Url
+  username: Username
+  volunteer: Volunteer
+  work: Work

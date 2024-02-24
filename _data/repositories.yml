@@ -3,6 +3,7 @@ github_users:
   - alshedivat
 
 github_repos:
+  - george-gca/multi-language-al-folio
   - alshedivat/al-folio
   - twbs/bootstrap
   - jekyll/jekyll

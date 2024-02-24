@@ -3,6 +3,9 @@ contact_links:
   - name: ❓ Ask a Question
     url: https://github.com/alshedivat/al-folio/discussions/categories/q-a
     about: Ask and answer al-folio related questions.
+  - name: ❓ Ask a Question (Localization)
+    url: https://github.com/george-gca/multi-language-al-folio/discussions/categories/q-a
+    about: Ask and answer al-folio questions related to localization.
   - name: 📖 Read the documentation
-    url: https://github.com/alshedivat/al-folio/blob/master/README.md
+    url: https://github.com/george-gca/multi-language-al-folio/blob/master/README.md
     about: Please consult the documentation before opening any issues!

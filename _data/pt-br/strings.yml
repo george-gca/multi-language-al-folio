@@ -1,0 +1,101 @@
+categories:
+  fun: diversão
+  work: trabalho
+contact_note: Você pode até adicionar uma pequena observação sobre qual dessas é a melhor maneira de entrar em contato com você.
+footer_text: > # the ">" symbol means to ignore newlines until "titles:"
+  Desenvolvido em <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> com o tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
+  Hospedado por <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Fotos do <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+latest_posts: últimas postagens
+news: novidades
+selected_publications: publicações selecionadas
+site_description: Um tema simples para acadêmicos. Baseado no design do [*folio](https://github.com/bogoli/-folio).
+archive_category: um arquivo de postagens desta categoria
+archive_tag: um arquivo de postagens com este marcador
+archive_year: um arquivo de postagens deste ano
+related_posts:
+  description: "Aqui estão alguns artigos relacionados que você pode gostar de ler:"
+  title: Gostou de Ler este Artigo?
+months:
+  long:
+    january: Janeiro
+    february: Fevereiro
+    march: Março
+    april: Abril
+    may: Maio
+    june: Junho
+    july: Julho
+    august: Agosto
+    september: Setembro
+    october: Outubro
+    november: Novembro
+    december: Dezembro
+  short:
+    january: Jan
+    february: Fev
+    march: Mar
+    april: Abr
+    may: Mai
+    june: Jun
+    july: Jul
+    august: Ago
+    september: Set
+    october: Out
+    november: Nov
+    december: Dez
+no_news: Nenhuma novidade no momento...
+pagination:
+  newer: Recentes
+  older: Antigas
+  page: página
+cv:
+  address: Endereço
+  area: Área
+  awarder: Premiado por
+  awards: Prêmios
+  basics: Informações gerais
+  certificates: Certificados
+  city: Cidade
+  countryCode: Código do país
+  courses: Cursos
+  date: Data
+  education: Educação
+  email: Email
+  endDate: Data de término
+  fluency: Fluência
+  highlights: Destaques
+  image: Imagem
+  institution: Instituição
+  interests: Interesses
+  issuer: Emissor
+  keywords: Palavras chave
+  label: Título
+  language: Idioma
+  languages: Idiomas
+  level: Nível
+  location: Localização
+  name: Nome
+  network: Rede
+  organization: Organização
+  phone: Telefone
+  position: Posição
+  postalCode: Código postal
+  profiles: Perfis
+  projects: Projetos
+  publications: Publicações
+  publisher: Editora
+  reference: Referência
+  references: Referências
+  region: Região
+  releaseDate: Data de lançamento
+  score: Pontuação
+  skills: Habilidades
+  startDate: Data de início
+  studyType: Tipo de estudo
+  summary: Resumo
+  table_of_contents: Tópicos
+  title: Título
+  url: Url
+  username: Usuário
+  volunteer: Voluntário
+  work: Trabalho

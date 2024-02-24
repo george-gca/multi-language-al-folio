@@ -14,10 +14,10 @@ name: "Lighthouse Badger"
 
 # INPUTS as environmental variables (env) for not manually triggered workflows
 env:
-  URLS: https://alshedivat.github.io/al-folio/
-  TOKEN_NAME: LIGHTHOUSE_BADGER_TOKEN
+  URLS: https://george-gca.github.io/multi-language-al-folio/
+  TOKEN_NAME: LIGHTHOUSE_BADGER_TOKEN_SECRET # name of the secret that contains the token
   # If any of the following env is blank, a default value is used instead
-  REPO_BRANCH: "${{ github.repository }} master" # target repository & branch e.g. 'dummy/mytargetrepo main'
+  REPO_BRANCH: "${{ github.repository }} main" # target repository & branch e.g. 'dummy/mytargetrepo main'
   MOBILE_LIGHTHOUSE_PARAMS: "--only-categories=performance,accessibility,best-practices,seo --throttling.cpuSlowdownMultiplier=2"
   DESKTOP_LIGHTHOUSE_PARAMS: "--only-categories=performance,accessibility,best-practices,seo --preset=desktop --throttling.cpuSlowdownMultiplier=1"
 

@@ -1,0 +1,18 @@
+{% assign months = 'january|february|march|april|may|june|july|august|september|october|november|december' | split: '|' %}
+{% assign m = include.date_from.date | date: '%-m' | minus: 1 %}
+{% assign day = include.date_from.date | date: '%d' %}
+{% capture month %}{{ months[m] }}{% endcapture %}
+{% capture month %}{{ site.data[site.active_lang].strings.months[include.format][month] }}{% endcapture %}
+{% assign year = include.date_from.date | date: '%Y' %}
+
+{% comment %}
+  Here, add language specific date formats
+{% endcomment %}
+
+{% if site.active_lang == 'en-us' %}
+  {{ month }} {{ day }}, {{ year }}
+{% elsif site.active_lang == 'pt-br' %}
+  {{ day }} de {{ month }}, {{ year }}
+{% else %}
+  {{ day }} {{ month }} {{ year }}
+{% endif %}
