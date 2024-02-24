@@ -8,7 +8,12 @@
       {% elsif page.redirect contains '://' %}
         {% assign redirect = page.redirect %}
       {% else %}
-        {% assign redirect = page.redirect | relative_url %}
+        {% assign is_asset = page.redirect | startswith: '/assets/' %}
+        {% if is_asset %}
+          {% assign redirect = page.redirect | prepend: site.baseurl_root %}
+        {% else %}
+          {% assign redirect = page.redirect | prepend: site.baseurl %}
+        {% endif %}
       {% endif %}
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
