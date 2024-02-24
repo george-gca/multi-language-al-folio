@@ -66,21 +66,21 @@ The user and repository information is defined in [\_data/repositories.yml](_dat
 
 ## Creating new pages
 
-You can create new pages by adding new Markdown files in the [\_pages](_pages/) directory. The easiest way to do this is to copy an existing page and modify it. You can choose the layout of the page in the [frontmatter](https://jekyllrb.com/docs/front-matter/) of the Markdown file. You can also add new layouts in the [\_layouts](_layouts/) directory if you feel the need for it.
+You can create new pages by adding new Markdown files in the [\_pages](_pages/) directory. The easiest way to do this is to copy an existing page and modify it. To have the page be displayed for different languages, simply create one markdown file with the same name in each language. It is possible to [use different permalinks per language](https://github.com/untra/polyglot?tab=readme-ov-file#using-different-permalinks-per-language) if you want to. You can choose the layout of the page in the [frontmatter](https://jekyllrb.com/docs/front-matter/) of the Markdown file. You can also add new layouts in the [\_layouts](_layouts/) directory if you feel the need for it.
 
 ## Creating new blog posts
 
-To create a new blog post, you can add a new Markdown file in the [\_i18n/LANG/\_posts](_i18n/en-us/_posts/) directory. The [name of the file must follow](https://jekyllrb.com/docs/posts/#creating-posts) the format `YYYY-MM-DD-title.md`. The easiest way to do this is to copy an existing blog post and modify it. Note that some blog posts have optional fields in the [frontmatter](https://jekyllrb.com/docs/front-matter/) that are used to enable specific behaviors or functions.
+To create a new blog post, you can add a new Markdown file in the [\_posts/LANG/](_posts/en-us/) directory. The [name of the file must follow](https://jekyllrb.com/docs/posts/#creating-posts) the format `YYYY-MM-DD-title.md`. The easiest way to do this is to copy an existing blog post and modify it. Note that some blog posts have optional fields in the [frontmatter](https://jekyllrb.com/docs/front-matter/) that are used to enable specific behaviors or functions.
 
 If you want to create blog posts that are not ready to be published, but you want to track it with git, you can create a [\_drafts](https://jekyllrb.com/docs/posts/#drafts) directory and store them there.
 
 ## Creating new projects
 
-You can create new projects by adding new Markdown files in the [\_projects](_projects/) directory. The easiest way to do this is to copy an existing project and modify it.
+You can create new projects by adding new Markdown files in the [\_projects/LANG/](_projects/en-us/) directory. The easiest way to do this is to copy an existing project and modify it.
 
 ## Adding some news
 
-You can add news in the about page by adding new Markdown files in the [\_i18n/LANG/\_news](_i18n/en-us/_news/) directory. There are currently two types of news: inline news and news with a link. News with a link take you to a new page while inline news are displayed directly in the about page. The easiest way to create yours is to copy an existing news and modify it.
+You can add news in the about page by adding new Markdown files in the [\_news/LANG/](_news/en-us/) directory. There are currently two types of news: inline news and news with a link. News with a link take you to a new page while inline news are displayed directly in the about page. The easiest way to create yours is to copy an existing news and modify it.
 
 ## Adding Collections
 
@@ -127,7 +127,7 @@ If the entry matches one form of the last names and the first names, it will be 
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 ```
 
-If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided.
+If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided (see [related discussion](https://github.com/alshedivat/al-folio/discussions/2213)).
 
 ### Buttons (through custom bibtex keywords)
 
