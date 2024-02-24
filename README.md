@@ -327,8 +327,8 @@ For more details on how to create distill-styled posts using `<d-*>` tags, pleas
 **al-folio** supports fast math typesetting through [MathJax](https://www.mathjax.org/) and code syntax highlighting using [GitHub style](https://github.com/jwarby/jekyll-pygments-themes). Also supports [chartjs charts](https://www.chartjs.org/), [mermaid diagrams](https://mermaid-js.github.io/mermaid/#/), and [TikZ figures](https://tikzjax.com/).
 
 <p align="center">
-<a href="https://george-gca.github.io/multi-language-al-folio/blog/2015/math/" target="_blank"><img src="assets/img/readme_preview/math.png" width=400></a>
-<a href="https://george-gca.github.io/multi-language-al-folio/blog/2015/code/" target="_blank"><img src="assets/img/readme_preview/code.png" width=400></a>
+<a href="https://george-gca.github.io/multi-language-al-folio/blog/2015/math/" target="_blank"><img src="assets/img/readme_preview/math.png" width=400 alt="example of post with math"></a>
+<a href="https://george-gca.github.io/multi-language-al-folio/blog/2015/code/" target="_blank"><img src="assets/img/readme_preview/code.png" width=400 alt="example of post with code"></a>
 </p>
 
 #### Photos, Audio, Video and more
