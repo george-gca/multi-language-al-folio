@@ -117,7 +117,7 @@
               {% endif %}
               <li class="nav-item active">
                 {% if site.active_lang == site.default_lang %}
-                  <a class="nav-link" {% static_href %}href="{{site.baseurl}}/{{ other_language }}{{page.url}}"{% endstatic_href %}>
+                  <a class="nav-link" {% static_href -%} href="{{site.baseurl}}/{{ other_language }}{{page.url}}" {%- endstatic_href %}>
                     {% if site.country_flag %}
                       <span class="fi fi-{{ other_language | split: "-" | last }}"></span>
                     {% else %}
@@ -125,7 +125,7 @@
                     {%- endif -%}
                   </a>
                 {% else %}
-                  <a class="nav-link" {% static_href %}href="{{site.baseurl}}{{ page.url }}"{% endstatic_href %}>
+                  <a class="nav-link" {% static_href -%} href="{{site.baseurl}}{{ page.url }}" {%- endstatic_href %}>
                     {% if site.country_flag %}
                       <span class="fi fi-{{ site.default_lang | split: "-" | last }}"></span>
                     {% else %}
@@ -162,7 +162,7 @@
                         <div class="dropdown-divider"></div>
                       {% endif %}
                       {% if l == site.default_lang %}
-                        <a class="dropdown-item" {% static_href %}href="{{site.baseurl}}{{page.url}}"{% endstatic_href %}>
+                        <a class="dropdown-item" {% static_href -%} href="{{site.baseurl}}{{page.url}}" {%- endstatic_href %}>
                           {% if site.country_flag %}
                             <span class="fi fi-{{ l | split: "-" | last }}"></span>
                           {% else %}
@@ -170,7 +170,7 @@
                           {%- endif -%}
                         </a>
                       {% else %}
-                        <a class="dropdown-item" {% static_href %}href="{{site.baseurl}}/{{l}}{{page.url}}"{% endstatic_href %}>
+                        <a class="dropdown-item" {% static_href -%} href="{{site.baseurl}}/{{l}}{{page.url}}" {%- endstatic_href %}>
                           {% if site.country_flag %}
                             <span class="fi fi-{{ l | split: "-" | last }}"></span>
                           {% else %}

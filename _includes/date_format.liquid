@@ -10,9 +10,12 @@
 {% endcomment %}
 
 {% if site.active_lang == 'en-us' %}
-  {{ month }} {{ day }}, {{ year }}
+  {{ month }}
+  {{ day }}, {{ year }}
 {% elsif site.active_lang == 'pt-br' %}
   {{ day }} de {{ month }}, {{ year }}
 {% else %}
-  {{ day }} {{ month }} {{ year }}
+  {{ day }}
+  {{ month }}
+  {{ year }}
 {% endif %}
