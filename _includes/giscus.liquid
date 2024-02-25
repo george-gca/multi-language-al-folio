@@ -14,7 +14,7 @@
         'data-emit-metadata': '{{ site.giscus.emit_metadata }}',
         'data-input-position': '{{ site.giscus.input_position }}',
         'data-theme': giscusTheme,
-        'data-lang': '{{ site.lang | split: "-" | first }}',
+        'data-lang': '{{ site.active_lang | split: "-" | first }}',
         crossorigin: 'anonymous',
         async: '',
       };
