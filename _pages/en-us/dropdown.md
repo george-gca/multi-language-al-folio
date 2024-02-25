@@ -1,17 +1,17 @@
 ---
 id: dropdown
 layout: page
-title: titles.submenus
+title: submenus
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: titles.publications
+  - title: publications
     permalink: /publications/
   - title: divider
-  - title: titles.projects
+  - title: projects
     permalink: /projects/
   - title: divider
-  - title: titles.blog
+  - title: blog
     permalink: /blog/
 ---

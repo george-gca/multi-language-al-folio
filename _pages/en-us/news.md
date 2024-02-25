@@ -1,7 +1,7 @@
 ---
 page_id: news
 layout: page
-title: titles.news
+title: news
 permalink: /news/
 ---
 

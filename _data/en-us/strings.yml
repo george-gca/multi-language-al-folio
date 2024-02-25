@@ -18,6 +18,7 @@ archive_year: an archive of posts from this year
 related_posts:
   description: "Here are some more articles you might like to read next:"
   title: Enjoy Reading This Article?
+references: References
 months:
   long:
     january: January

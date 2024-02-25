@@ -10,7 +10,6 @@ group :jekyll_plugins do
     gem 'jekyll-jupyter-notebook'
     gem 'jekyll-link-attributes'
     gem 'jekyll-minifier'
-    gem 'jekyll-multiple-languages-plugin'
     gem 'jekyll-paginate-v2'
     gem 'jekyll-polyglot'
     gem 'jekyll-scholar'

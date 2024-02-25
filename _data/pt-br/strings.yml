@@ -18,6 +18,7 @@ archive_year: um arquivo de postagens deste ano
 related_posts:
   description: "Aqui estão alguns artigos relacionados que você pode gostar de ler:"
   title: Gostou de Ler este Artigo?
+references: Referências
 months:
   long:
     january: Janeiro
