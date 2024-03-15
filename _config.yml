@@ -335,11 +335,11 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us", "pt-br", "zh-cn"]
-default_lang: "en-us"
+languages: ["en-us", "zh-cn"]
+default_lang: "zh-cn"
 exclude_from_localization: ["assets"]
 lang_from_path: true
-country_flag: false # set true for allowing flag symbol in language toggle
+country_flag: true # set true for allowing flag symbol in language toggle
 parallel_localization: false
 
 # -----------------------------------------------------------------------------
