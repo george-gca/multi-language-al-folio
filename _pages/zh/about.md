@@ -1,6 +1,6 @@
 ---
 page_id: about
-layout: 关于
+layout: about
 title: 关于
 permalink: /
 subtitle: <a href='https://www.sjtu.edu.cn/'>上海交通大学</a> 跨媒体语言智能实验室
