@@ -10,7 +10,7 @@ profile:
   image: logo_red.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>电子信息与电气工程学院3号楼223、225</p>
+    <p>电院3号楼223、225</p>
     <p>上海交通大学</p>
     <p>上海，闵行</p>
     <p>xlance@sjtu.edu.cn</p>

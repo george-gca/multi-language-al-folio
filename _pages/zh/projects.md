@@ -1,9 +1,9 @@
 ---
 page_id: projects
 layout: page
-title: projects
+title: 项目
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: 实验室相关项目成果展示
 nav: true
 nav_order: 3
 display_categories: [work, fun]

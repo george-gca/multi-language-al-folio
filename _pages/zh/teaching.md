@@ -2,8 +2,8 @@
 page_id: teaching
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: 课程
+description: 由实验室开设的课程
 nav: true
 nav_order: 6
 ---
