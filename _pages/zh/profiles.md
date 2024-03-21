@@ -11,7 +11,7 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: members/faculty/yk_square.jpeg
+    image: members/faculty/ky_square.jpg
     content: 
     image_circular: true # crops the image to make it circular
     more_info: >
@@ -19,7 +19,7 @@ profiles:
         <p>电院3号楼539</p>
         <p>kai.yu@sjtu.edu.cn</p>
   - align: left
-    image: members/faculty/slp_square.jpeg
+    image: members/faculty/slp_square.jpg
     content: 
     image_circular: true # crops the image to make it circular
     more_info: >
@@ -27,7 +27,7 @@ profiles:
         <p>电院3号楼531</p>
         <p>lpshen@sjtu.edu.cn</p>
   - align: right
-    image: members/faculty/cx_square.jpeg
+    image: members/faculty/cx_square.jpg
     content: 
     image_circular: true # crops the image to make it circular
     more_info: >
@@ -35,7 +35,7 @@ profiles:
         <p>SEIEE 3-501</p>
         <p>chenxie95@sjtu.edu.cn</p>
   - align: left
-    image: members/faculty/wmy_square.jpeg
+    image: members/faculty/wmy_square.jpg
     content: 
     image_circular: true # crops the image to make it circular
     more_info: >
@@ -43,7 +43,7 @@ profiles:
         <p>SEIEE 3-524</p>
         <p>mengyuewu@sjtu.edu.cn</p>
   - align: right
-    image: members/faculty/cl_square.jpeg
+    image: members/faculty/cl_square.jpg
     content: 
     image_circular: true # crops the image to make it circular
     more_info: >
