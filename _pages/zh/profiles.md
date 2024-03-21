@@ -1,7 +1,7 @@
 ---
 page_id: profiles
 layout: profiles
-permalink: /people/
+permalink: /faculty/
 title: 成员
 description: 实验室成员
 nav: true
