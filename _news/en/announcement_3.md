@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-2-29
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+📃[Paper+3] **Three** papers from X-LANCE Lab accepted by **COLING 2024** and **WSDM 2024**. <a href="https://mp.weixin.qq.com/s/po_WpFtMembsME7Wl5NlRg"> [Post] </a>
