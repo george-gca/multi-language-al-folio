@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 ENV DEBIAN_FRONTEND noninteractive
 
-Label MAINTAINER George Araújo
+LABEL MAINTAINER George Araújo
 
 RUN apt-get update -y && apt-get install -y --no-install-recommends \
     locales \
