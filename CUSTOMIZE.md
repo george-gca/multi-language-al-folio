@@ -2,7 +2,7 @@
 
 Here we will give you some tips on how to customize the website. One important thing to note is that **ALL** the changes you make should be done on the **main** branch of your repository. The `gh-pages` branch is automatically overwritten every time you make a change to the main branch.
 
-Note that throughout the [README.md](README.md) and [CUSTOMIZE.md](CUSTOMIZE.md) files, the default language is English (LANG = en-us). You must have an equivalent file or path for each language you have defined in [\_config.yml](_config.yml). For example, if you have defined `languages: ["en-us", "pt-br"]`, you must have 2 versions of the file `_data/LANG/cv.yml`: [\_data/en-us/cv.yml](_data/en-us/cv.yml) and [\_data/pt-br/cv.yml](_data/pt-br/cv.yml).
+Note that throughout the [README.md](README.md) and [CUSTOMIZE.md](CUSTOMIZE.md) files, the default language is English (LANG = en). You must have an equivalent file or path for each language you have defined in [\_config.yml](_config.yml). For example, if you have defined `languages: ["en", "pt-br"]`, you must have 2 versions of the file `_data/LANG/cv.yml`: [\_data/en/cv.yml](_data/en/cv.yml) and [\_data/zh/cv.yml](_data/zh/cv.yml).
 
 ## Project structure
 
@@ -58,9 +58,9 @@ To display countries flags instead of the language initials in the header, you c
 
 ## Modifying the CV information
 
-There are currently 2 different ways of generating the CV page content. The first one is by using a json file located in [assets/json/resume_LANG.json](assets/json/resume_en-us.json). It is a [known standard](https://jsonresume.org/) for creating a CV programmatically. The second one, currently used as a fallback when the json file is not found, is by using a yml file located in [\_data/LANG/cv.yml](_data/en-us/cv.yml). This was the original way of creating the CV page content and since it is more human readable than a json file we decided to keep it as an option.
+There are currently 2 different ways of generating the CV page content. The first one is by using a json file located in [assets/json/resume_LANG.json](assets/json/resume_en-us.json). It is a [known standard](https://jsonresume.org/) for creating a CV programmatically. The second one, currently used as a fallback when the json file is not found, is by using a yml file located in [\_data/LANG/cv.yml](_data/en/cv.yml). This was the original way of creating the CV page content and since it is more human readable than a json file we decided to keep it as an option.
 
-What this means is, if there is no resume data defined in [\_config.yml](_config.yml) and loaded via a json file, it will load the contents of [\_data/LANG/cv.yml](_data/en-us/cv.yml). If you want to use the [\_data/LANG/cv.yml](_data/en-us/cv.yml) file as the source of your CV, you must delete the [assets/json/resume_LANG.json](assets/json/resume_en-us.json) file.
+What this means is, if there is no resume data defined in [\_config.yml](_config.yml) and loaded via a json file, it will load the contents of [\_data/LANG/cv.yml](_data/en/cv.yml). If you want to use the [\_data/LANG/cv.yml](_data/en/cv.yml) file as the source of your CV, you must delete the [assets/json/resume_LANG.json](assets/json/resume_en-us.json) file.
 
 ## Modifying the user and repository information
 
@@ -78,11 +78,11 @@ If you want to create blog posts that are not ready to be published, but you wan
 
 ## Creating new projects
 
-You can create new projects by adding new Markdown files in the [\_projects/LANG/](_projects/en-us/) directory. The easiest way to do this is to copy an existing project and modify it.
+You can create new projects by adding new Markdown files in the [\_projects/LANG/](_projects/en/) directory. The easiest way to do this is to copy an existing project and modify it.
 
 ## Adding some news
 
-You can add news in the about page by adding new Markdown files in the [\_news/LANG/](_news/en-us/) directory. There are currently two types of news: inline news and news with a link. News with a link take you to a new page while inline news are displayed directly in the about page. The easiest way to create yours is to copy an existing news and modify it.
+You can add news in the about page by adding new Markdown files in the [\_news/LANG/](_news/en/) directory. There are currently two types of news: inline news and news with a link. News with a link take you to a new page while inline news are displayed directly in the about page. The easiest way to create yours is to copy an existing news and modify it.
 
 ## Adding Collections
 

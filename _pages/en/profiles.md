@@ -47,7 +47,7 @@ profiles:
     content:
     image_circular: true # crops the image to make it circular
     more_info: >
-      <h2>**Associate Researcher Lu Chen**</h2>
+      <h2><B>Associate Researcher Lu Chen</B></h2>
       <p>SEIEE 3-223</p>
       <p>chenlusz@sjtu.edu.cn</p>
 ---
