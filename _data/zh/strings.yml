@@ -10,7 +10,7 @@ footer_text: > # ">" 符号表示忽略直到 "titles:" 的所有新行
   托管于 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>。
 latest_posts: 最新文章
 news: 新闻
-selected_publications: 精选出版物
+selected_publications: 论文摘选
 site_description: 一个简单的、以空白为主题的学术网站。基于 [*folio](https://github.com/bogoli/-folio) 设计。
 archive_category: 该分类下的文章存档
 archive_tag: 带有此标签的文章存档
