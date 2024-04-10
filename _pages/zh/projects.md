@@ -4,7 +4,7 @@ layout: page
 title: 项目
 permalink: /projects/
 description: 实验室相关项目成果展示
-nav: true
+nav: false
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false

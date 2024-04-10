@@ -4,7 +4,7 @@ layout: profiles
 permalink: /members/faculty/
 title: faculty
 description: Faculties of X-LANCE
-nav: true
+nav: false
 nav_order: 7
 
 profiles:

@@ -4,7 +4,7 @@ layout: page
 permalink: /teaching/
 title: 课程
 description: 由实验室开设的课程
-nav: true
+nav: false
 nav_order: 6
 ---
 

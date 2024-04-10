@@ -3,9 +3,7 @@ page_id: faculty
 layout: profiles
 permalink: /members/faculty/
 title: 教师
-description: X-LANCE在职教师
-nav: true
-nav_order: 7
+nav: false
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
