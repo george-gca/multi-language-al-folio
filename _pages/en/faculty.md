@@ -1,7 +1,7 @@
 ---
-page_id: profiles
+page_id: faculty
 layout: profiles
-permalink: /faculty/
+permalink: /members/faculty/
 title: faculty
 description: Faculties of X-LANCE
 nav: true

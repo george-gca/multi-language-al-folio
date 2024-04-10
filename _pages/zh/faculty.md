@@ -1,9 +1,9 @@
 ---
-page_id: profiles
+page_id: faculty
 layout: profiles
-permalink: /faculty/
-title: 成员
-description: 实验室成员
+permalink: /members/faculty/
+title: 教师
+description: X-LANCE在职教师
 nav: true
 nav_order: 7
 
