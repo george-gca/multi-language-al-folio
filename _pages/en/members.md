@@ -1,7 +1,7 @@
 ---
 id: members
 layout: page
-title: members
+title: Members
 nav: true
 nav_order: 3
 dropdown: true

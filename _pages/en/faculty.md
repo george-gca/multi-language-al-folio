@@ -2,7 +2,7 @@
 page_id: faculty
 layout: profiles
 permalink: /members/faculty/
-title: faculty
+title: Faculty
 description: Faculties of X-LANCE
 nav: false
 nav_order: 7

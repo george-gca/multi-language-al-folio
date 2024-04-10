@@ -14,4 +14,7 @@ children:
   - title: divider
   - title: 仓库
     permalink: /repositories/
+  - title: divider
+  - title: 博客
+    permalink: /blog/
 ---

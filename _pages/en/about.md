@@ -1,7 +1,7 @@
 ---
 page_id: about
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://www.sjtu.edu.cn/'>Shanghai Jiao Tong University</a>. Cross Media Language Intelligence Lab.
 
