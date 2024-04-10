@@ -9,8 +9,8 @@ children:
   - title: Faculty
     permalink: /members/faculty/
   - title: divider
-  - title: Students
-    permalink: /members/students/
+#  - title: Students
+#    permalink: /members/students/
   - title: divider
   - title: Alumni
     permalink: /members/alumni/
