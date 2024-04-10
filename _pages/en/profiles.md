@@ -12,7 +12,7 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     image: members/faculty/ky_square.jpg
-    content:
+    content: members/faculty/yukai.md
     image_circular: true # crops the image to make it circular
     more_info: >
       <h2>Professor Kai Yu</h2>
@@ -20,7 +20,7 @@ profiles:
       <p>kai.yu@sjtu.edu.cn</p>
   - align: left
     image: members/faculty/slp_square.jpg
-    content:
+    content: members/faculty/shenliping.md
     image_circular: true # crops the image to make it circular
     more_info: >
       <h2>Associate Professor Liping Shen</h2>
@@ -28,7 +28,7 @@ profiles:
       <p>lpshen@sjtu.edu.cn</p>
   - align: right
     image: members/faculty/cx_square.jpg
-    content:
+    content: members/faculty/chenxie.md
     image_circular: true # crops the image to make it circular
     more_info: >
       <h2>Associate Professor Xie Chen</h2>
@@ -36,7 +36,7 @@ profiles:
       <p>chenxie95@sjtu.edu.cn</p>
   - align: left
     image: members/faculty/wmy_square.jpg
-    content:
+    content: members/faculty/wumengyue.md
     image_circular: true # crops the image to make it circular
     more_info: >
       <h2>Associate Researcher Mengyue Wu</h2>
@@ -44,7 +44,7 @@ profiles:
       <p>mengyuewu@sjtu.edu.cn</p>
   - align: right
     image: members/faculty/cl_square.jpg
-    content:
+    content: members/faculty/chenlu.md
     image_circular: true # crops the image to make it circular
     more_info: >
       <h2>Associate Researcher Lu Chen</h2>
