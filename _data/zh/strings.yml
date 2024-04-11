@@ -4,13 +4,13 @@ categories:
   fun: 娱乐
   work: 工作
 contact_note: >
-  欢迎关注我们的工作并且对于任何问题联系我们。Welcome follow our works and contact us for any questions.
+  欢迎关注我们的工作，如果有任何问题欢迎随时联系我们。
 footer_text: > # ">" 符号表示忽略直到 "titles:" 的所有新行
   由 <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> 驱动，使用 <a href="https://github.com/george-gca/multi-language-al-folio">多语言-al-folio</a> 主题。
   托管于 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>。
 latest_posts: 最新文章
-news: 新闻
-selected_publications: 论文摘选
+news: 🔥新闻
+selected_publications: 📑论文摘选
 site_description: 一个简单的、以空白为主题的学术网站。基于 [*folio](https://github.com/bogoli/-folio) 设计。
 archive_category: 该分类下的文章存档
 archive_tag: 带有此标签的文章存档

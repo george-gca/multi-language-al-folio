@@ -1,7 +1,7 @@
 ---
 page_id: about
 layout: about
-title: About
+title: 🤩About
 permalink: /
 subtitle: <a href='https://www.sjtu.edu.cn/'>Shanghai Jiao Tong University</a>. Cross Media Language Intelligence Lab.
 
@@ -17,4 +17,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-欢迎访问上海交通大学 X-LANCE 实验室！我们的新网站正在建设中。更多信息请参阅 [旧网站](https://x-lance.sjtu.edu.cn)。
+Welcome to SJTU X-LANCE Lab! Our new website is under construction. Please refer to [our old website](https://x-lance.sjtu.edu.cn) for more information.

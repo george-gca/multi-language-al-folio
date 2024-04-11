@@ -2,7 +2,7 @@
 page_id: papers
 layout: page
 permalink: /papers/
-title: Papers
+title: 📃Papers
 description: Publications are listed in reversed chronological order.
 nav: true
 nav_order: 2

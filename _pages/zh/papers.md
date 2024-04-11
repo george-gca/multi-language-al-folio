@@ -2,7 +2,7 @@
 page_id: papers
 layout: page
 permalink: /papers/
-title: 论文
+title: 📃论文
 description: 论文按时间倒序列出。
 nav: true
 nav_order: 2
