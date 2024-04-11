@@ -14,8 +14,7 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <h3>俞凯 特聘教授</h3>
-      <p>电院3号楼539</p>
-      <p>kai.yu@sjtu.edu.cn</p>
+      <p>电院3号楼539<br>kai.yu@sjtu.edu.cn</p>
       <p><a href="https://x-lance.github.io/kaiyu/">个人主页</a></p>
   - align: left
     image: members/faculty/slp_square.jpg
@@ -23,8 +22,7 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <h3>申丽萍 副教授</h3>
-      <p>电院3号楼531</p>
-      <p>lpshen@sjtu.edu.cn</p>
+      <p>电院3号楼531<br>lpshen@sjtu.edu.cn</p>
       <p><a href="https://www.cs.sjtu.edu.cn/~shen-lp/">个人主页</a></p>
   - align: right
     image: members/faculty/cx_square.jpg
@@ -32,8 +30,7 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <h3>陈谐 副教授</h3>
-      <p>SEIEE 3-501</p>
-      <p>chenxie95@sjtu.edu.cn</p>
+      <p>SEIEE 3-501<br>chenxie95@sjtu.edu.cn</p>
       <p><a href="https://chenxie95.github.io/">个人主页</a></p>
   - align: left
     image: members/faculty/wmy_square.jpg
@@ -41,8 +38,7 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <h3>吴梦玥 副研究员</h3>
-      <p>SEIEE 3-524</p>
-      <p>mengyuewu@sjtu.edu.cn</p>
+      <p>SEIEE 3-524<br>mengyuewu@sjtu.edu.cn</p>
       <p><a href="https://myw19.github.io/">个人主页</a></p>
   - align: right
     image: members/faculty/cl_square.jpg
@@ -50,7 +46,6 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <h3>陈露 副研究员</h3>
-      <p>SEIEE 3-223</p>
-      <p>chenlusz@sjtu.edu.cn</p>
+      <p>SEIEE 3-223<br>chenlusz@sjtu.edu.cn</p>
       <p><a href="https://coai-sjtu.github.io/">个人主页</a></p>
 ---

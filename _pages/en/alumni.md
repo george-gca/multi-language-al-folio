@@ -14,7 +14,6 @@ profiles:
     content: members/faculty/qianyanmin.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <h2>Professor Yanmin Qian</h2>
-      <p>SEIEE 3-501</p>
-      <p>qian-ym@sjtu.edu.cn</p>
+      <h3>Professor Yanmin Qian</h3>
+      <p>SEIEE 3-501<br>qian-ym@sjtu.edu.cn</p>
 ---

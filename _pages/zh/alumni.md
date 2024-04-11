@@ -14,7 +14,6 @@ profiles:
     content: members/faculty/qianyanmin.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <h2>钱彦旻 教授</h2>
-      <p>电院3号楼501</p>
-      <p>qian-ym@sjtu.edu.cn</p>
+      <h3>钱彦旻 教授</h3>
+      <p>电院3号楼501<br>qian-ym@sjtu.edu.cn</p>
 ---
