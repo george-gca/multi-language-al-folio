@@ -13,7 +13,7 @@ profiles:
     content: members/faculty/yukai.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p align="center"><h3>俞凯 特聘教授</h3>
+      <p align="right"><h3>俞凯 特聘教授</h3>
       电院3号楼539<br>
       kai.yu@sjtu.edu.cn<br>
       <a href="https://x-lance.github.io/kaiyu/">个人主页</a></p>
