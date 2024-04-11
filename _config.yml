@@ -245,7 +245,7 @@ defaults:
 
 sass:
   sourcemap: never
-  style: compressed
+#  style: compressed
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
