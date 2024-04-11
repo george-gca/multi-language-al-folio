@@ -10,7 +10,7 @@ profile:
   image: logo_red.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>电院3号楼223、225<br>上海交通大学<br>上海，闵行<br>xlance@sjtu.edu.cn</p>
+    <p align="center">电院3号楼223、225<br>上海交通大学<br>上海，闵行<br>xlance@sjtu.edu.cn</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

@@ -15,8 +15,8 @@ profiles:
     content: members/faculty/yukai.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <h3>Professor Kai Yu</h3>
-      <p>SEIEE 3-539<br>
+      <p align="center"><h3>Professor Kai Yu</h3><br>
+      SEIEE 3-539<br>
       kai.yu@sjtu.edu.cn<br>
       <a href="https://x-lance.github.io/kaiyu/">Personal Website</a></p>
   - align: left
@@ -24,8 +24,8 @@ profiles:
     content: members/faculty/shenliping.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <h3>Associate Professor Liping Shen</h3>
-      <p>SEIEE 3-531<br>
+      <p align="center"><h3>Associate Professor Liping Shen</h3><br>
+      SEIEE 3-531<br>
       lpshen@sjtu.edu.cn<br>
       <a href="https://www.cs.sjtu.edu.cn/~shen-lp/">Personal Website</a></p>
   - align: right
@@ -33,8 +33,8 @@ profiles:
     content: members/faculty/chenxie.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <h3>Associate Professor Xie Chen</h3>
-      <p>SEIEE 3-501<br>
+      <p align="center"><h3>Associate Professor Xie Chen</h3><br>
+      SEIEE 3-501<br>
       chenxie95@sjtu.edu.cn<br>
       <a href="https://chenxie95.github.io/">Personal Website</a></p>
   - align: left
@@ -42,8 +42,7 @@ profiles:
     content: members/faculty/wumengyue.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <h3>Associate Researcher Mengyue Wu</h3>
-      <p>SEIEE 3-524<br>
+      <p align="center"><h3>Associate Researcher Mengyue Wu</h3><br>SEIEE 3-524<br>
       mengyuewu@sjtu.edu.cn<br>
       <a href="https://myw19.github.io/">Personal Website</a></p>
   - align: right
@@ -51,8 +50,8 @@ profiles:
     content: members/faculty/chenlu.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <h3>Associate Researcher Lu Chen</h3>
-      <p>SEIEE 3-223<br>
+      <p align="center"><h3>Associate Researcher Lu Chen</h3><br>
+      SEIEE 3-223<br>
       chenlusz@sjtu.edu.cn<br>
       <a href="https://coai-sjtu.github.io/">Personal Website</a></p>
 ---
