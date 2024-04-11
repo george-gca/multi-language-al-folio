@@ -9,6 +9,7 @@ $red-color-dark: #b71c1c !default;
 $orange-color: #f29105 !default;
 $blue-color: #0076df !default;
 $blue-color-dark: #00369f !default;
+$blue-color-light: #8fb8f3 !default;
 $cyan-color: #2698ba !default;
 $light-cyan-color: lighten($cyan-color, 25%);
 $green-color: #00ab37 !default;
@@ -34,7 +35,7 @@ $black-color: #000000 !default;
 
 $code-bg-color-light: rgba($cyan-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
-$navbar-bg-color-light: lighten($blue-color, 50%);
+$navbar-bg-color-light: $blue-color-light;
 $navbar-bg-color-dark: $grey-color-dark;
 
 // Font awesome location
