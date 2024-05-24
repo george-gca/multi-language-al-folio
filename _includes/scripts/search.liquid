@@ -20,6 +20,11 @@
       ninjaKeys.open();
     };
   </script>
+  {% if site.active_lang == site.default_lang %}
+    {%  assign lang = "" %}
+  {% else %}
+    {%  assign lang = site.active_lang %}
+  {% endif %}
   <script>
     // get the ninja-keys element
     const ninja = document.querySelector('ninja-keys');
@@ -34,7 +39,7 @@
         title: "{{ about_title }}",
         section: "{{ site.data[site.active_lang].strings.search.navigation }}",
         handler: () => {
-          window.location.href = "{{ '/' | relative_url }}";
+          window.location.href = "{{ '/' | prepend: lang | relative_url }}";
         },
       },
       {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
@@ -51,12 +56,11 @@
                   description: "{{ child.description | strip_html | strip_newlines | escape }}",
                   section: "{{ site.data[site.active_lang].strings.search.dropdown }}",
                   handler: () => {
-                    window.location.href = "{{ url | relative_url }}";
+                    window.location.href = "{{ url | prepend: lang | relative_url }}";
                   },
                 },
               {%- endunless -%}
             {%- endfor -%}
-
           {%- else -%}
             {
               {%- assign title = p.title | escape -%}
@@ -66,7 +70,7 @@
               description: "{{ p.description | strip_html | strip_newlines | escape }}",
               section: "{{ site.data[site.active_lang].strings.search.navigation }}",
               handler: () => {
-                window.location.href = "{{ url | relative_url }}";
+                window.location.href = "{{ url | prepend: lang | relative_url }}";
               },
             },
           {%- endif -%}
@@ -80,7 +84,7 @@
           description: "{{ post.description | strip_html | strip_newlines | escape }}",
           section: "{{ site.data[site.active_lang].strings.search.posts }}",
           handler: () => {
-            window.location.href = "{{ post.url | relative_url }}";
+            window.location.href = "{{ post.url | prepend: lang | relative_url }}";
           },
         },
       {%- endfor -%}
@@ -92,7 +96,7 @@
           description: "{{ project.description | strip_html | strip_newlines | escape }}",
           section: "{{ site.data[site.active_lang].strings.search.projects }}",
           handler: () => {
-            window.location.href = "{{ project.url | relative_url }}";
+            window.location.href = "{{ project.url | prepend: lang | relative_url }}";
           },
         },
       {%- endfor -%}
@@ -521,7 +525,6 @@
         {%- endif -%}
         {%- endcomment -%}
       {%- endif -%}
-
       {%- for l in site.languages -%}
         {%- if l != site.active_lang -%}
           {%- if l == site.default_lang -%}
@@ -545,7 +548,6 @@
           {%- endif -%}
         {%- endif -%}
       {%- endfor -%}
-
       {%- if site.enable_darkmode -%}
         {
           id: 'light-theme',
