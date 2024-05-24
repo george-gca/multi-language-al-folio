@@ -107,5 +107,24 @@ references: Referências
 related_posts:
   description: "Aqui estão alguns artigos relacionados que você pode gostar de ler:"
   title: Gostou de Ler este Artigo?
+search:
+  dark_theme:
+    description: Muda o tema do site para escuro
+    title: Muda o tema para escuro
+  dropdown: Outras opções
+  email: Enviar um email
+  languages: Idiomas
+  light_theme:
+    description: Muda o tema do site para claro
+    title: Muda o tema para claro
+  navigation: Menu de navegação
+  placeholder: Digite para iniciar a busca
+  posts: Postagens
+  projects: Projetos
+  socials: Redes sociais
+  system_theme:
+    description: Muda o tema do site para o padrão do sistema
+    title: Usa o tema padrão do sistema
+  theme: Tema
 selected_publications: publicações selecionadas
 site_description: Um tema simples para acadêmicos. Baseado no design do [*folio](https://github.com/bogoli/-folio).

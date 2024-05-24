@@ -107,5 +107,24 @@ references: References
 related_posts:
   description: "Here are some more articles you might like to read next:"
   title: Enjoy Reading This Article?
+search:
+  dark_theme:
+    description: Change the theme of the site to Dark
+    title: Change theme to dark
+  dropdown: Dropdown
+  email: Send an email
+  languages: Languages
+  light_theme:
+    description: Change the theme of the site to Light
+    title: Change theme to light
+  navigation: Navigation menu
+  placeholder: Type to start searching
+  posts: Posts
+  projects: Projects
+  socials: Socials
+  system_theme:
+    description: Change the theme of the site to System Default
+    title: Use system default theme
+  theme: Theme
 selected_publications: selected publications
 site_description: A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.

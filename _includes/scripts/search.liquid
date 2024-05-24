@@ -1,6 +1,6 @@
 {% if site.search_enabled %}
   <script type="module" src="{{ '/assets/js/search/ninja-keys.min.js' | relative_url | bust_file_cache }}"></script>
-  <ninja-keys hideBreadcrumbs noAutoLoadMdIcons placeholder="Type to start searching"></ninja-keys>
+  <ninja-keys hideBreadcrumbs noAutoLoadMdIcons placeholder="{{ site.data[site.active_lang].strings.search.placeholder }}"></ninja-keys>
   <script>
     let theme = determineComputedTheme();
     const ninjaKeys = document.querySelector('ninja-keys');
@@ -32,7 +32,7 @@
       {
         id: "nav-{{ about_title | slugify }}",
         title: "{{ about_title }}",
-        section: "Navigation",
+        section: "{{ site.data[site.active_lang].strings.search.navigation }}",
         handler: () => {
           window.location.href = "{{ '/' | relative_url }}";
         },
@@ -49,7 +49,7 @@
                   id: "dropdown-{{ title | slugify }}",
                   title: "{{ title }}",
                   description: "{{ child.description | strip_html | strip_newlines | escape }}",
-                  section: "Dropdown",
+                  section: "{{ site.data[site.active_lang].strings.search.dropdown }}",
                   handler: () => {
                     window.location.href = "{{ url | relative_url }}";
                   },
@@ -64,7 +64,7 @@
               id: "nav-{{ title | slugify }}",
               title: "{{ title }}",
               description: "{{ p.description | strip_html | strip_newlines | escape }}",
-              section: "Navigation",
+              section: "{{ site.data[site.active_lang].strings.search.navigation }}",
               handler: () => {
                 window.location.href = "{{ url | relative_url }}";
               },
@@ -78,7 +78,7 @@
           id: "post-{{ title | slugify }}",
           title: "{{ title }}",
           description: "{{ post.description | strip_html | strip_newlines | escape }}",
-          section: "Posts",
+          section: "{{ site.data[site.active_lang].strings.search.posts }}",
           handler: () => {
             window.location.href = "{{ post.url | relative_url }}";
           },
@@ -90,7 +90,7 @@
           id: "project-{{ title | slugify }}",
           title: "{{ title }}",
           description: "{{ project.description | strip_html | strip_newlines | escape }}",
-          section: "Projects",
+          section: "{{ site.data[site.active_lang].strings.search.projects }}",
           handler: () => {
             window.location.href = "{{ project.url | relative_url }}";
           },
@@ -100,8 +100,8 @@
         {%- if site.email -%}
           {
             id: 'socials-email',
-            title: 'Send email',
-            section: 'Socials',
+            title: '{{ site.data[site.active_lang].strings.search.email }}',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("mailto:{{ site.email | encode_email }}", "_blank");
             },
@@ -111,7 +111,7 @@
           {
             id: 'socials-telegram',
             title: 'Telegram',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://telegram.me/{{ site.telegram_username }}", "_blank");
             },
@@ -121,7 +121,7 @@
           {
             id: 'socials-whatsapp',
             title: 'WhatsApp',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://wa.me/{{ site.whatsapp_number }}", "_blank");
             },
@@ -131,7 +131,7 @@
           {
             id: 'socials-orcid',
             title: 'ORCID',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://orcid.org/{{ site.orcid_id }}", "_blank");
             },
@@ -141,7 +141,7 @@
           {
             id: 'socials-google-scholar',
             title: 'Google Scholar',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://scholar.google.com/citations?user={{ site.scholar_userid }}", "_blank");
             },
@@ -151,7 +151,7 @@
           {
             id: 'socials-semantic-scholar',
             title: 'Semantic Scholar',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}", "_blank");
             },
@@ -161,7 +161,7 @@
           {
             id: 'socials-publons',
             title: 'Publons',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://publons.com/a/{{ site.publons_id }}/", "_blank");
             },
@@ -171,7 +171,7 @@
           {
             id: 'socials-lattes',
             title: 'Lattes',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("http://lattes.cnpq.br/{{ site.lattes_id }}", "_blank");
             },
@@ -180,7 +180,7 @@
         {%- if site.osf_id -%}
             id: 'socials-open-science-framework',
             title: 'Open Science Framework',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://osf.io/{{ site.osf_id }}/", "_blank");
             },
@@ -190,7 +190,7 @@
           {
             id: 'socials-researchgate',
             title: 'ResearchGate',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://www.researchgate.net/profile/{{site.research_gate_profile}}/", "_blank");
             },
@@ -200,7 +200,7 @@
           {
             id: 'socials-ieee-xplore',
             title: 'IEEE Xplore',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://ieeexplore.ieee.org/author/{{site.ieee_id}}/", "_blank");
             },
@@ -210,7 +210,7 @@
           {
             id: 'socials-acm-dl',
             title: 'ACM DL',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://dl.acm.org/profile/{{site.acm_id}}/", "_blank");
             },
@@ -220,7 +220,7 @@
           {
             id: 'socials-scopus',
             title: 'Scopus',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://www.scopus.com/authid/detail.uri?authorId={{site.scopus_id}}", "_blank");
             },
@@ -230,7 +230,7 @@
           {
             id: 'socials-github',
             title: 'GitHub',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://github.com/{{ site.github_username }}", "_blank");
             },
@@ -240,7 +240,7 @@
           {
             id: 'socials-linkedin',
             title: 'LinkedIn',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://www.linkedin.com/in/{{ site.linkedin_username }}", "_blank");
             },
@@ -251,7 +251,7 @@
             id: 'socials-x',
             title: 'X',
             description: 'Twitter',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://twitter.com/{{ site.x_username }}", "_blank");
             },
@@ -261,7 +261,7 @@
           {
             id: 'socials-mastodon',
             title: 'Mastodon',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://{{ site.mastodon_username  }}", "_blank");
             },
@@ -271,7 +271,7 @@
           {
             id: 'socials-medium',
             title: 'Medium',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://medium.com/@{{ site.medium_username }}", "_blank");
             },
@@ -281,7 +281,7 @@
           {
             id: 'socials-quora',
             title: 'Quora',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://www.quora.com/profile/{{ site.quora_username }}", "_blank");
             },
@@ -291,7 +291,7 @@
           {
             id: 'socials-flickr',
             title: 'Flickr',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://www.flickr.com/{{ site.flickr_id }}", "_blank");
             },
@@ -301,7 +301,7 @@
           {
             id: 'socials-blogger',
             title: 'Blogger',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("{{ site.blogger_url }}", "_blank");
             },
@@ -311,7 +311,7 @@
           {
             id: 'socials-work',
             title: 'Work',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("{{ site.work_url }}", "_blank");
             },
@@ -321,7 +321,7 @@
           {
             id: 'socials-wikidata',
             title: 'Wikidata',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://www.wikidata.org/wiki/{{ site.wikidata_id }}", "_blank");
             },
@@ -331,7 +331,7 @@
           {
             id: 'socials-wikipedia',
             title: 'Wikipedia',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://wikipedia.org/wiki/User:{{ site.wikipedia_id }}", "_blank");
             },
@@ -341,7 +341,7 @@
           {
             id: 'socials-strava',
             title: 'Strava',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://www.strava.com/athletes/{{ site.strava_userid }}", "_blank");
             },
@@ -351,7 +351,7 @@
           {
             id: 'socials-keybase',
             title: 'Keybase',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://keybase.io/{{ site.keybase_username }}", "_blank");
             },
@@ -361,7 +361,7 @@
           {
             id: 'socials-gitlab',
             title: 'GitLab',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://gitlab.com/{{ site.gitlab_username }}", "_blank");
             },
@@ -371,7 +371,7 @@
           {
             id: 'socials-dblp',
             title: 'DBLP',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("{{ site.dblp_url }}", "_blank");
             },
@@ -381,7 +381,7 @@
           {
             id: 'socials-stackoverflow',
             title: 'Stackoverflow',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://stackoverflow.com/users/{{ site.stackoverflow_id }}", "_blank");
             },
@@ -391,7 +391,7 @@
           {
             id: 'socials-kaggle',
             title: 'Kaggle',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://www.kaggle.com/{{ site.kaggle_id }}", "_blank");
             },
@@ -401,7 +401,7 @@
           {
             id: 'socials-last-fm',
             title: 'Last FM',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://www.last.fm/user/{{ site.lastfm_id }}", "_blank");
             },
@@ -411,7 +411,7 @@
           {
             id: 'socials-spotify',
             title: 'Spotify',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://open.spotify.com/user/{{ site.spotify_id }}", "_blank");
             },
@@ -421,7 +421,7 @@
           {
             id: 'socials-pinterest',
             title: 'Pinterest',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://www.pinterest.com/{{ site.pinterest_id }}", "_blank");
             },
@@ -431,7 +431,7 @@
           {
             id: 'socials-unsplash',
             title: 'Unsplash',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://unsplash.com/@{{ site.unsplash_id }}", "_blank");
             },
@@ -441,7 +441,7 @@
           {
             id: 'socials-instagram',
             title: 'Instagram',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://instagram.com/{{ site.instagram_id }}", "_blank");
             },
@@ -451,7 +451,7 @@
           {
             id: 'socials-facebook',
             title: 'Facebook',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://facebook.com/{{ site.facebook_id }}", "_blank");
             },
@@ -461,7 +461,7 @@
           {
             id: 'socials-bluesky',
             title: 'Bluesky',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://bsky.app/profile/{{ site.bluesky_url }}", "_blank");
             },
@@ -471,7 +471,7 @@
           {
             id: 'socials-youtube',
             title: 'YouTube',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://youtube.com/@{{ site.youtube_id }}", "_blank");
             },
@@ -481,7 +481,7 @@
           {
             id: 'socials-discord',
             title: 'Discord',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://discord.com/users/{{ site.discord_id }}", "_blank");
             },
@@ -491,7 +491,7 @@
           {
             id: 'socials-zotero',
             title: 'Zotero',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("https://www.zotero.org/{{ site.zotero_username }}", "_blank");
             },
@@ -501,7 +501,7 @@
           {
             id: 'socials-rss',
             title: 'RSS Feed',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("{{ site.baseurl }}/feed.xml", "_blank");
             },
@@ -513,7 +513,7 @@
           {
             id: 'socials-wechat',
             title: 'WeChat',
-            section: 'Socials',
+            section: '{{ site.data[site.active_lang].strings.search.socials }}',
             handler: () => {
               window.open("", "_blank");
             },
@@ -521,30 +521,55 @@
         {%- endif -%}
         {%- endcomment -%}
       {%- endif -%}
+
+      {%- for l in site.languages -%}
+        {%- if l != site.active_lang -%}
+          {%- if l == site.default_lang -%}
+            {
+              id: 'lang-{{ l }}',
+              title: '{{ l }}',
+              section: '{{ site.data[site.active_lang].strings.search.languages }}',
+              handler: () => {
+                window.location.href = "{{ site.baseurl }}{{ page.url }}";
+              },
+            },
+          {%- else -%}
+            {
+              id: 'lang-{{ l }}',
+              title: '{{ l }}',
+              section: '{{ site.data[site.active_lang].strings.search.languages }}',
+              handler: () => {
+                window.location.href = "{{ site.baseurl }}/{{ l }}{{ page.url }}";
+              },
+            },
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+
       {%- if site.enable_darkmode -%}
         {
           id: 'light-theme',
-          title: 'Change theme to light',
-          description: 'Change the theme of the site to Light',
-          section: 'Theme',
+          title: '{{ site.data[site.active_lang].strings.search.light_theme.title }}',
+          description: '{{ site.data[site.active_lang].strings.search.light_theme.description }}',
+          section: '{{ site.data[site.active_lang].strings.search.theme }}',
           handler: () => {
             setThemeSetting("light");
           },
         },
         {
           id: 'dark-theme',
-          title: 'Change theme to dark',
-          description: 'Change the theme of the site to Dark',
-          section: 'Theme',
+          title: '{{ site.data[site.active_lang].strings.search.dark_theme.title }}',
+          description: '{{ site.data[site.active_lang].strings.search.dark_theme.description }}',
+          section: '{{ site.data[site.active_lang].strings.search.theme }}',
           handler: () => {
             setThemeSetting("dark");
           },
         },
         {
           id: 'system-theme',
-          title: 'Use system default theme',
-          description: 'Change the theme of the site to System Default',
-          section: 'Theme',
+          title: '{{ site.data[site.active_lang].strings.search.system_theme.title }}',
+          description: '{{ site.data[site.active_lang].strings.search.system_theme.description }}',
+          section: '{{ site.data[site.active_lang].strings.search.theme }}',
           handler: () => {
             setThemeSetting("system");
           },
