@@ -41,6 +41,8 @@ rss_icon: true
 
 navbar_fixed: true
 footer_fixed: true
+search_enabled: true
+socials_in_search: true
 
 # Dimensions
 max_width: 930px
@@ -258,7 +260,7 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt"]
+  exclude: ["robots.txt", "assets/js/search/*.js"]
   uglifier_args:
     harmony: true
 
