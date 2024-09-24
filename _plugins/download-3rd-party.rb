@@ -3,7 +3,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
   require 'digest'
   require 'fileutils'
   require 'nokogiri'
-  require 'open-uri'
+  require 'net/http'
   require 'uri'
 
   font_file_types = ['otf', 'ttf', 'woff', 'woff2']
@@ -69,10 +69,14 @@ Jekyll::Hooks.register :site, :after_init do |site|
     # download the file if it doesn't exist
     unless File.file?(dest)
       puts "Downloading #{url} to #{dest}"
-      File.open(dest, "wb") do |saved_file|
-        URI.open(url, "rb") do |read_file|
-          saved_file.write(read_file.read)
+      uri = URI.parse(url)
+      response = Net::HTTP.get_response(uri)
+      if response.is_a?(Net::HTTPSuccess)
+        File.open(dest, "wb") do |saved_file|
+          saved_file.write(response.body)
         end
+      else
+        raise "Failed to download #{url} to #{dest}: #{response.message}"
       end
 
       # check if the file was downloaded successfully
