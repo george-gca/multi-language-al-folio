@@ -1,0 +1,202 @@
+archive_category: une archive des articles de cette catégorie
+archive_tag: une archive de messages avec ce tag
+archive_year: une archive des articles de cette année
+bibliography:
+  abs: résumé
+  awarded: prix
+  blog: blogue
+  code: code
+  slides: diapos
+  poster: affiche
+  supp: supp
+  tldr: TLDR
+  video: vidéo
+  website: site web
+blog: blogue
+blog_posts:
+  read_time: minutes de lecture
+  tags:
+    funding: "financement"
+    communication: "communication"
+    lifestyle: "style de vie"
+    literature-review: "revue-litérature"
+    strategies: "stratégies"
+  categories:
+    research: "recherche"
+navigation_title: blogue
+categories:
+  fun: amusement
+  work: travail
+citation:
+  bibtex: "ou comme entrée BibTeX :"
+  introduction: introduction
+contact_note: Que vous souhaitiez collaborer, parler davantage de mon travail ou avoir des questions, n'hésitez pas à me contacter.
+cv:
+  address: adresse
+  area: région
+  awarder: détenteur
+  awards: prix et bourses
+  basics: informations générales
+  certificates: certificats
+  city: ville
+  countryCode: paysCode
+  courses: cours
+  date: date
+  education: éducation
+  email: courriel
+  endDate: date de fin
+  fluency: maîtrise
+  highlights: points forts
+  image: image
+  institution: institution
+  interests: intérêts
+  issuer: émetteur
+  keywords: mots-clés
+  label: poste
+  language: langue
+  languages: langues
+  level: niveau
+  location: emplacement
+  name: nom
+  network: réseau
+  organization: organisation
+  phone: téléphone
+  position: poste
+  postalCode: code postal
+  present: présent
+  profiles: profils
+  projects: projets
+  publications: publications
+  publisher: éditeur
+  reference: référence
+  references: références
+  region: région
+  releaseDate: date de sortie
+  score: résultat
+  skills: compétences
+  startDate: date de début
+  studyType: type d'étude
+  summary: résumé
+  table_of_contents: table des matières
+  title: titre
+  url: site web
+  username: nom d'utilisateur
+  volunteer: bénévolat
+  work: travail
+filter: Tapez pour filtrer
+footer:
+  copyright: ""
+  last_updated: "Dernière mise à jour le "
+latest_posts: derniers articles
+months:
+  long:
+    january: janvier
+    february: février
+    march: mars
+    april: avril
+    may: mai
+    june: juin
+    july: juillet
+    august: août
+    september: septembre
+    october: octobre
+    november: novembre
+    december: décembre
+  short:
+    january: janv
+    february: févr
+    march: mars
+    april: avr
+    may: mai
+    june: juin
+    july: juil
+    august: août
+    september: sept
+    october: oct
+    november: nov
+    december: déc
+  longer:
+    1: janvier
+    2: février
+    3: mars
+    4: avril
+    5: mai
+    6: juin
+    7: juillet
+    8: août
+    9: septembre
+    10: octobre
+    11: novembre
+    12: décembre
+  shorter:
+    1: janv
+    2: févr
+    3: mars
+    4: avr
+    5: mai
+    6: juin
+    7: juil
+    8: août
+    9: sept
+    10: oct
+    11: nov
+    12: déc
+news: actualités
+newsletter:
+  back: retour
+  error: "Oups ! Quelque chose s'est mal passé, veuillez réessayer."
+  subscribe: s'abonner
+  subscribed: "Vous vous êtes abonné(e) à la newsletter avec succès."
+  subscribe_to_receive: "Abonnez-vous pour être informé(e) des prochains articles :"
+  too_many_signups: "Trop d'inscriptions, veuillez réessayer plus tard."
+  wait: "Veuillez patienter..."
+no_news: aucune actualité pour l'instant...
+no_posts: aucun article pour le moment...
+pagination:
+  newer: plus récents
+  older: plus anciens
+  page: page
+post:
+  created_in: créé le
+  created_by: par
+  last_updated: "dernière mise à jour :"
+references: références
+related_posts:
+  description: "Voici d'autres articles que vous pourriez aimer lire ensuite :"
+  title: "Vous avez aimé lire cet article ?"
+  no_related_posts: "Aucun article connexe trouvé."
+search:
+  dark_theme:
+    description: changer le thème du site en sombre
+    title: changer le thème en sombre
+  dropdown: déroulant
+  email: envoyer un e-mail
+  footer:
+    close: fermer
+    navigate: naviguer
+    parent: revenir au parent
+    select: sélectionner
+  languages: langues
+  light_theme:
+    description: changer le thème du site en clair
+    title: changer le thème en clair
+  navigation: menu de navigation
+  news: actualités
+  placeholder: Tapez pour commencer la recherche
+  posts: articles
+  projects: projets
+  socials: réseaux sociaux
+  system_theme:
+    description: changer le thème du site selon le système par défaut
+    title: utiliser le thème par défaut du système
+  theme: thème
+selected_publications: publications sélectionnées
+site_description: un espace ouvert pour la recherche académique
+searchbar: " "
+suggestions_form:
+  title: Suggérez une conférence
+  description: "Nous avons oublié une conférence ? Soumettez-la pour l'ajouter à la liste."
+  conference_name: Nom de la conférence
+  conference_url: URL
+  additional_info: Information supplémentaire
+  submit: Soumettre
