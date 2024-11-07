@@ -6,6 +6,7 @@ bibliography:
   awarded: prix
   blog: blogue
   code: code
+  booktitle_prefix: dans
   slides: diapos
   poster: affiche
   supp: supp

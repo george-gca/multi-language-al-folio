@@ -6,6 +6,7 @@ bibliography:
   awarded: Awarded
   blog: Blog
   code: Code
+  booktitle_prefix: In
   slides: Slides
   poster: Poster
   supp: Supp
@@ -117,18 +118,19 @@ newsletter:
   too_many_signups: "Too many signups, please try again in a little while"
   wait: "Please wait..."
 no_news: No news so far...
+no_posts: No posts so far...
 pagination:
   newer: Newer
   older: Older
   page: page
 post:
-  created_in: Created in
+  created_in: Created on
   created_by: by
-  last_updated: last updated in
+  last_updated: last updated on
 references: References
 related_posts:
   description: "Here are some more articles you might like to read next:"
-  title: Enjoy Reading This Article?
+  title: Enjoyed Reading This Article?
 search:
   dark_theme:
     description: Change the theme of the site to Dark
