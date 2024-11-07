@@ -12,6 +12,8 @@
 {%- if site.active_lang == 'en-us' -%}
   {{ month }}
   {{ day }}, {{ year }}
+{%- elsif site.active_lang == 'fr-ca' -%}
+  {{ day }} {{ month }}, {{ year }}  
 {%- elsif site.active_lang == 'pt-br' -%}
   {{ day }} de {{ month }}, {{ year }}
 {%- else -%}
