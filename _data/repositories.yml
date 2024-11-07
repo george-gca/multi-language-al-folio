@@ -5,11 +5,11 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - name: george-gca/multi-language-al-folio
-  - name: alshedivat/al-folio
-  - name: jekyll/jekyll
-  - name: twbs/bootstrap
-  - name: jquery/jquery
-  - name: FortAwesome/Font-Awesome
-  - name: mathjax/MathJax
-  - name: jpswalsh/academicons
+  - george-gca/multi-language-al-folio
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons
