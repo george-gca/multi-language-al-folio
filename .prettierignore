@@ -2,7 +2,6 @@
 **/*.min.css
 **/*.min.js
 assets/css/main.scss
-assets/js/search-data.js
 assets/js/distillpub/template.v2.js
 assets/js/search/*.js
 assets/plotly/demo.html
@@ -11,3 +10,4 @@ _posts/en-us/2015-10-20-math.md
 _posts/pt-br/2015-10-20-math.md
 _sass/font-awesome/*.scss
 _sass/tabler-icons/*.scss
+_scripts/search.liquid.js

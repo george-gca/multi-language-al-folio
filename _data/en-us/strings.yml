@@ -121,8 +121,6 @@ newsletter:
 no_news: No news so far...
 no_posts: No posts so far...
 pagination:
-  newer: Newer
-  older: Older
   page: page
 post:
   created_in: Created on

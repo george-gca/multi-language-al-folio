@@ -104,8 +104,6 @@ newsletter:
   wait: "Por favor, aguarde..."
 no_news: Nenhuma novidade no momento...
 pagination:
-  newer: Recentes
-  older: Antigas
   page: página
 post:
   created_in: Criado em

@@ -20,7 +20,8 @@ The project is structured as follows, focusing on the main components that you w
 │   ├── 📂 LANG/: data for the LANG version. Must have one for each language defined in _config.yml
 │   │   ├── 📄 cv.yml: CV in YAML format, used when assets/json/resume_LANG.json is not found
 |   |   └── 📄 strings.yml: localized variables (placeholders). Must have one for each language defined in _config.yml
-│   └── 📄 repositories.yml: users and repositories info in YAML format
+│   ├── 📄 repositories.yml: users and repositories info in YAML format
+│   └── 📄 socials.yml: your social media and contact info in YAML format
 ├── 📂 _includes/: contains code parts that are included in the main HTML file
 │   └── 📄 news.liquid: defines the news section layout in the about page
 ├── 📂 _layouts/: contains the layouts to choose from in the frontmatter of the Markdown files

@@ -18,5 +18,5 @@
 {% endfor %}
 {% if site.newsletter.enabled and site.footer_fixed %}
   <p class="mb-2" style="margin-top: 1.5rem !important">{{ site.data[site.active_lang].strings.newsletter.subscribe_to_receive }}</p>
-  {% include scripts/newsletter.liquid left=true %}
+  {% include newsletter.liquid left=true %}
 {% endif %}
