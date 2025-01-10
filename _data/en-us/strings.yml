@@ -1,6 +1,18 @@
 archive_category: an archive of posts in this category
 archive_tag: an archive of posts with this tag
 archive_year: an archive of posts from this year
+bibliography:
+  abstract: Abs
+  awarded: Awarded
+  blog: Blog
+  book_prefix: In
+  code: Code
+  last_author_prefix: and
+  poster: Poster
+  slides: Slides
+  supp: Supp
+  video: Video
+  website: Website
 blog:
   navigation_title: blog
 categories:
@@ -42,6 +54,7 @@ cv:
   phone: Phone
   position: Position
   postalCode: Postal Code
+  present: Present
   profiles: Profiles
   projects: Projects
   publications: Publications
@@ -61,6 +74,9 @@ cv:
   username: Username
   volunteer: Volunteer
   work: Work
+footer:
+  copyright: Copyright
+  last_updated: "Last updated:"
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -103,6 +119,7 @@ newsletter:
   too_many_signups: "Too many signups, please try again in a little while"
   wait: "Please wait..."
 no_news: No news so far...
+no_posts: "No posts so far..."
 pagination:
   page: page
 post:

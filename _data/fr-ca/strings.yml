@@ -1,6 +1,20 @@
 archive_category: archives des articles de cette catégorie
 archive_tag: archives de messages avec ce tag
 archive_year: archives des articles de cette année
+bibliography:
+  abstract: résumé
+  awarded: prix
+  blog: blogue
+  book_prefix: dans
+  code: code
+  last_author_prefix: et
+  poster: affiche
+  slides: diapos
+  supp: supp
+  url: URL
+  video: vidéo
+  website: site web
+
 blog: 
   navigation_title: blogue
 categories:
@@ -42,6 +56,7 @@ cv:
   phone: téléphone
   position: poste
   postalCode: code postal
+  present: Présent
   profiles: profils
   projects: projets
   publications: publications
@@ -61,6 +76,9 @@ cv:
   username: nom d'utilisateur
   volunteer: bénévolat
   work: travail
+footer:
+  copyright: "Droits d'auteur"
+  last_updated: "Dernière mise à jour le "
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   Propulsé par <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> avec le thème <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
   Hébergé par <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -102,8 +120,8 @@ newsletter:
   subscribe_to_receive: "Abonnez-vous pour être informé(e) des prochains articles:"
   too_many_signups: "Trop d'inscriptions, veuillez réessayer plus tard."
   wait: "Veuillez patienter..."
-no_news: "aucune actualité pour l'instant..."
-no_posts: "aucun article pour le moment..."
+no_news: "Aucune actualité pour l'instant..."
+no_posts: "Aucun article pour le moment..."
 pagination:
   page: page
 post:

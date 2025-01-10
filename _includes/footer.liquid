@@ -1,7 +1,7 @@
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
-      &copy; Copyright {{ site.time | date: '%Y' }}
+      &copy; {{- site.data[site.active_lang].strings.footer.copyright -}} {{ site.time | date: '%Y' }}
       {{ site.first_name }}
       {{ site.middle_name }}
       {{ site.last_name }}. {{ site.data[site.active_lang].strings.footer_text }}
@@ -9,7 +9,7 @@
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
       {% if site.last_updated %}
-        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+        {{- site.data[site.active_lang].strings.footer.last_updated }} {{ 'now' | date: '%B %d, %Y' }}.
       {% endif %}
     </div>
   </footer>
@@ -20,7 +20,7 @@
     {% endif %}
 
     <div class="container">
-      &copy; Copyright {{ site.time | date: '%Y' }}
+      &copy; {{- site.data[site.active_lang].strings.footer.copyright -}} {{ site.time | date: '%Y' }}
       {{ site.first_name }}
       {{ site.middle_name }}
       {{ site.last_name }}. {{ site.data[site.active_lang].strings.footer_text }}
@@ -28,7 +28,7 @@
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
       {% if site.last_updated %}
-        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+        {{- site.data[site.active_lang].strings.footer.last_updated }} {{ 'now' | date: '%B %d, %Y' }}.
       {% endif %}
     </div>
   </footer>
