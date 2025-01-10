@@ -1,0 +1,141 @@
+archive_category: archives des articles de cette catégorie
+archive_tag: archives de messages avec ce tag
+archive_year: archives des articles de cette année
+blog: 
+  navigation_title: blogue
+categories:
+  fun: extra
+  work: travail
+citation:
+  bibtex: "ou comme entrée BibTeX:"
+  introduction: "Si vous avez trouvé cela utile, veuillez le citer comme suit:"
+contact_note: Vous pouvez même ajouter une petite note indiquant lequel de ces moyens est le meilleur pour vous joindre.
+cv:
+  address: adresse
+  area: région
+  awarder: récipient(e)
+  awards: prixs
+  basics: informations générales
+  certificates: certificats
+  city: ville
+  countryCode: paysCode
+  courses: cours
+  date: date
+  education: éducation
+  email: courriel
+  endDate: date de fin
+  fluency: maîtrise
+  highlights: points clés
+  image: image
+  institution: institution
+  interests: intérêts
+  issuer: émetteur
+  keywords: mots-clés
+  label: poste
+  language: langue
+  languages: langues
+  level: niveau
+  location: emplacement
+  name: nom
+  network: réseau
+  organization: organisation
+  phone: téléphone
+  position: poste
+  postalCode: code postal
+  profiles: profils
+  projects: projets
+  publications: publications
+  publisher: éditeur
+  reference: référence
+  references: références
+  region: région
+  releaseDate: date de publication
+  score: score
+  skills: compétences
+  startDate: date de début
+  studyType: "domaine d'études"
+  summary: résumé
+  table_of_contents: table des matières
+  title: titre
+  url: site web
+  username: nom d'utilisateur
+  volunteer: bénévolat
+  work: travail
+footer_text: > # the ">" symbol means to ignore newlines until "titles:"
+  Propulsé par <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> avec le thème <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
+  Hébergé par <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Photos de <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+latest_posts: derniers articles
+months:
+  long:
+    january: janvier
+    february: février
+    march: mars
+    april: avril
+    may: mai
+    june: juin
+    july: juillet
+    august: août
+    september: septembre
+    october: octobre
+    november: novembre
+    december: décembre
+  short:
+    january: jan
+    february: fév
+    march: mar
+    april: avr
+    may: mai
+    june: jun
+    july: jul
+    august: aoû
+    september: sep
+    october: oct
+    november: nov
+    december: déc
+news: actualités
+newsletter:
+  back: retour
+  error: "Oups ! Quelque chose s'est mal passé, veuillez réessayer."
+  subscribe: "s'abonner"
+  subscribed: "Vous vous êtes abonné(e) à la newsletter avec succès."
+  subscribe_to_receive: "Abonnez-vous pour être informé(e) des prochains articles:"
+  too_many_signups: "Trop d'inscriptions, veuillez réessayer plus tard."
+  wait: "Veuillez patienter..."
+no_news: "aucune actualité pour l'instant..."
+no_posts: "aucun article pour le moment..."
+pagination:
+  page: page
+post:
+  created_in: Créé le
+  created_by: par
+  last_updated: "Dernière mise à jour le "
+references: références
+related_posts:
+  description: "Voici d'autres articles que vous pourriez aimer lire ensuite :"
+  title: "Vous avez aimé lire cet article ?"
+search:
+  dark_theme:
+    description: changer le thème du site en sombre
+    title: changer le thème en sombre
+  dropdown: déroulant
+  email: envoyer un courriel
+  footer:
+    close: fermer
+    navigate: naviguer
+    parent: revenir au parent
+    select: sélectionner
+  languages: langues
+  light_theme:
+    description: changer le thème du site en clair
+    title: changer le thème en clair
+  navigation: menu de navigation
+  news: actualités
+  placeholder: Tapez pour commencer la recherche
+  posts: articles
+  projects: projets
+  socials: réseaux sociaux
+  system_theme:
+    description: changer le thème du site selon le système par défaut
+    title: utiliser le thème par défaut du système
+  theme: thème
