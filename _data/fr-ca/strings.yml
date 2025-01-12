@@ -14,8 +14,7 @@ bibliography:
   url: URL
   video: vidéo
   website: site web
-
-blog: 
+blog:
   navigation_title: blogue
 categories:
   fun: extra
@@ -157,3 +156,4 @@ search:
     description: changer le thème du site selon le système par défaut
     title: utiliser le thème par défaut du système
   theme: thème
+  
