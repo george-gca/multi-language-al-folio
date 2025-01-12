@@ -4,13 +4,13 @@ archive_year: um arquivo de postagens deste ano
 bibliography:
   abstract: Abs
   awarded: Premiado
-  blog: Blogue
+  blog: Blog
   book_prefix: Em
   code: Código
   last_author_prefix: e
   poster: Poster
   slides: Slides
-  supp: Supp
+  supp: Supl
   video: Vídeo
   website: Site
 blog:
