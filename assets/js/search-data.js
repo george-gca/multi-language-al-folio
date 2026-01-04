@@ -1,6 +1,6 @@
 
 const currentUrl = window.location.href;
-const siteUrl = "https://george-gca.github.io"; 
+const siteUrl = "https://george-gca.github.io";
 let updatedUrl = currentUrl.replace("https://george-gca.github.io/multi-language-al-folio", "");
 if (currentUrl.length == updatedUrl.length && currentUrl.startsWith("http://127.0.0.1")) {
   const otherSiteUrl = siteUrl.replace("localhost", "127.0.0.1");
@@ -508,6 +508,13 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/multi-language-al-folio/projects/en-us/6_project/";
             },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/multi-language-al-folio/assets/pdf/en-us/example_pdf.pdf", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'Send an email',
         section: 'Socials',

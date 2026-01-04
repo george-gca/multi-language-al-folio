@@ -1,6 +1,6 @@
 
 const currentUrl = window.location.href;
-const siteUrl = "https://george-gca.github.io"; 
+const siteUrl = "https://george-gca.github.io";
 let updatedUrl = currentUrl.replace("https://george-gca.github.io/multi-language-al-folio", "");
 if (currentUrl.length == updatedUrl.length && currentUrl.startsWith("http://127.0.0.1")) {
   const otherSiteUrl = siteUrl.replace("localhost", "127.0.0.1");
@@ -69,19 +69,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/multi-language-al-folio/pt-br/people/";
           },
-        },{id: "dropdown-publicações",
-              title: "publicações",
+        },{id: "dropdown-estante-de-livros",
+              title: "estante de livros",
               description: "",
               section: "Outras opções",
               handler: () => {
-                window.location.href = "/multi-language-al-folio/pt-br/publications/";
-              },
-            },{id: "dropdown-projetos",
-              title: "projetos",
-              description: "",
-              section: "Outras opções",
-              handler: () => {
-                window.location.href = "/multi-language-al-folio/pt-br/projects/";
+                window.location.href = "/multi-language-al-folio/pt-br/books/";
               },
             },{id: "dropdown-blog",
               title: "blog",
@@ -515,6 +508,13 @@ ninja.data = [{
           section: "Projetos",handler: () => {
               window.location.href = "/multi-language-al-folio/pt-br/projects/pt-br/6_project/";
             },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Redes sociais',
+        handler: () => {
+          window.open("/multi-language-al-folio/assets/pdf/pt-br/example_pdf.pdf", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'Enviar um email',
         section: 'Redes sociais',
