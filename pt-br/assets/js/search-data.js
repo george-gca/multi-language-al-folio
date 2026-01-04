@@ -450,7 +450,7 @@ ninja.data = [{
           title: 'The Godfather',
           description: "",
           section: "",handler: () => {
-              window.location.href = "/multi-language-al-folio/pt-br/books/pt-br/the_godfather/";
+              window.location.href = "/multi-language-al-folio/pt-br/books/the_godfather/";
             },},{id: "news-um-anúncio-simples-em-uma-linha",
           title: 'Um anúncio simples em uma linha.',
           description: "",
@@ -458,7 +458,7 @@ ninja.data = [{
           title: 'Um anúncio longo com detalhes',
           description: "",
           section: "Novidades",handler: () => {
-              window.location.href = "/multi-language-al-folio/pt-br/news/pt-br/announcement_2/";
+              window.location.href = "/multi-language-al-folio/pt-br/news/announcement_2/";
             },},{id: "news-um-anúncio-simples-em-uma-linha-com-markdown-emoji-sparkles-smile",
           title: 'Um anúncio simples em uma linha com Markdown emoji! :sparkles: :smile:',
           description: "",
@@ -481,32 +481,32 @@ ninja.data = [{
           title: 'projeto 1',
           description: "com imagem de fundo",
           section: "Projetos",handler: () => {
-              window.location.href = "/multi-language-al-folio/pt-br/projects/pt-br/1_project/";
+              window.location.href = "/multi-language-al-folio/pt-br/projects/1_project/";
             },},{id: "projects-projeto-2",
           title: 'projeto 2',
           description: "um projeto com imagem de fundo e comentários do giscus",
           section: "Projetos",handler: () => {
-              window.location.href = "/multi-language-al-folio/pt-br/projects/pt-br/2_project/";
+              window.location.href = "/multi-language-al-folio/pt-br/projects/2_project/";
             },},{id: "projects-projeto-3-com-um-nome-bem-longo",
           title: 'projeto 3 com um nome bem longo',
           description: "um projeto que redireciona pra outro website",
           section: "Projetos",handler: () => {
-              window.location.href = "/multi-language-al-folio/pt-br/projects/pt-br/3_project/";
+              window.location.href = "/multi-language-al-folio/pt-br/projects/3_project/";
             },},{id: "projects-projeto-4",
           title: 'projeto 4',
           description: "outro sem imagem",
           section: "Projetos",handler: () => {
-              window.location.href = "/multi-language-al-folio/pt-br/projects/pt-br/4_project/";
+              window.location.href = "/multi-language-al-folio/pt-br/projects/4_project/";
             },},{id: "projects-projeto-5",
           title: 'projeto 5',
           description: "um projeto com imagem de fundo",
           section: "Projetos",handler: () => {
-              window.location.href = "/multi-language-al-folio/pt-br/projects/pt-br/5_project/";
+              window.location.href = "/multi-language-al-folio/pt-br/projects/5_project/";
             },},{id: "projects-projeto-6",
           title: 'projeto 6',
           description: "um projeto sem imagem",
           section: "Projetos",handler: () => {
-              window.location.href = "/multi-language-al-folio/pt-br/projects/pt-br/6_project/";
+              window.location.href = "/multi-language-al-folio/pt-br/projects/6_project/";
             },},{
         id: 'social-cv',
         title: 'CV',

@@ -450,7 +450,7 @@ ninja.data = [{
           title: 'The Godfather',
           description: "",
           section: "",handler: () => {
-              window.location.href = "/multi-language-al-folio/fr-ca/books/en-us/the_godfather/";
+              window.location.href = "/multi-language-al-folio/fr-ca/books/the_godfather/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -458,7 +458,7 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "actualités",handler: () => {
-              window.location.href = "/multi-language-al-folio/fr-ca/news/en-us/announcement_2/";
+              window.location.href = "/multi-language-al-folio/fr-ca/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
@@ -481,32 +481,32 @@ ninja.data = [{
           title: 'project 1',
           description: "with background image",
           section: "projets",handler: () => {
-              window.location.href = "/multi-language-al-folio/fr-ca/projects/en-us/1_project/";
+              window.location.href = "/multi-language-al-folio/fr-ca/projects/1_project/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "projets",handler: () => {
-              window.location.href = "/multi-language-al-folio/fr-ca/projects/en-us/2_project/";
+              window.location.href = "/multi-language-al-folio/fr-ca/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "projets",handler: () => {
-              window.location.href = "/multi-language-al-folio/fr-ca/projects/en-us/3_project/";
+              window.location.href = "/multi-language-al-folio/fr-ca/projects/3_project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
           section: "projets",handler: () => {
-              window.location.href = "/multi-language-al-folio/fr-ca/projects/en-us/4_project/";
+              window.location.href = "/multi-language-al-folio/fr-ca/projects/4_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "projets",handler: () => {
-              window.location.href = "/multi-language-al-folio/fr-ca/projects/en-us/5_project/";
+              window.location.href = "/multi-language-al-folio/fr-ca/projects/5_project/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "projets",handler: () => {
-              window.location.href = "/multi-language-al-folio/fr-ca/projects/en-us/6_project/";
+              window.location.href = "/multi-language-al-folio/fr-ca/projects/6_project/";
             },},{
         id: 'social-cv',
         title: 'CV',
