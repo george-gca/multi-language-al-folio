@@ -512,7 +512,7 @@ ninja.data = [{
         title: 'CV',
         section: 'réseaux sociaux',
         handler: () => {
-          window.open("/multi-language-al-folio/assets/pdf/fr-ca/example_pdf.pdf", "_blank");
+          window.open("/multi-language-al-folio/assets/pdf/fr-ca//assets/pdf/[LANG]/example_pdf.pdf", "_blank");
         },
       },{
         id: 'social-email',
