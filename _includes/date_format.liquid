@@ -9,16 +9,39 @@
   Here, add language specific date formats
 {% endcomment %}
 
-{%- if site.active_lang == 'en-us' -%}
-  {{ month }}
-  {{ day }}, {{ year }}
-{%- elsif site.active_lang == 'fr-ca' -%}
-  {{ day }}
-  {{ month }}, {{ year }}
-{%- elsif site.active_lang == 'pt-br' -%}
-  {{ day }} de {{ month }}, {{ year }}
-{%- else -%}
-  {{ day }}
-  {{ month }}
-  {{ year }}
-{%- endif -%}
+{% assign lang = site.active_lang | split: '-' | first %}
+{% assign lang_last = site.active_lang | split: '-' | last %}
+
+{% case lang %}
+  {% when 'en' %}
+    {% case lang_last %}
+      {% when 'us', 'uk' %}
+        {{ month }}
+        {{ day }}, {{ year }}
+    {% endcase %}
+
+  {% when 'fr' %}
+    {% case lang_last %}
+      {% when 'ca' %}
+        {{ day }}
+        {{ month }}, {{ year }}
+    {% endcase %}
+
+  {% when 'pt' %}
+    {% case lang_last %}
+      {% when 'br' %}
+        {{ day }} de {{ month }}, {{ year }}
+    {% endcase %}
+
+  {% when 'zh' %}
+    {% case lang_last %}
+      {% comment %} Simplified Chinese family {% endcomment %}
+      {% when 'cn', 'sg', 'my', 'hans' %} 
+        {{ year }}年{{ month }}月{{ day }}日
+      {% comment %} Traditional Chinese family {% endcomment %}
+      {% when 'tw', 'hk', 'mo', 'hant' %}
+        {{ year }}年{{ month }}月{{ day }}日
+    {% endcase %}
+
+    {% comment %} Add a new language using when... if needed {% endcomment %}
+{% endcase %}
